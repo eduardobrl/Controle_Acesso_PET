@@ -29694,6 +29694,360 @@
     "scope": null
   },
   {
+    "ID": "c:DRV_RTC.c@56@macro@__DRV_RTC_C__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DRV_RTC_C__",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "__DRV_RTC_C__",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@604@macro@pwrtwo",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "pwrtwo",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "pwrtwo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@662@macro@DESIRE_BAUDURATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DESIRE_BAUDURATE",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "DESIRE_BAUDURATE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@699@macro@SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@736@macro@CLOCK_DIV",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLOCK_DIV",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "CLOCK_DIV",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@854@macro@BAUDURATE_VAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BAUDURATE_VAL",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "BAUDURATE_VAL",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1163",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "1",
+      "line": "28",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "members": [
+      {
+        "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1163@FI@lastRead",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "lastRead",
+        "location": {
+          "column": "17",
+          "line": "30",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "lastRead",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_RTC_c_28_1"
+      },
+      {
+        "ID": "c:@drvRTC_Obj",
+        "What": "VarDecl",
+        "defdec": "Dec",
+        "display": "drvRTC_Obj",
+        "location": {
+          "column": "3",
+          "line": "33",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "drvRTC_Obj",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_RTC_c_28_1"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@DOMINGO",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "DOMINGO",
+        "location": {
+          "column": "3",
+          "line": "36",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "DOMINGO",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@SEGUNDA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SEGUNDA",
+        "location": {
+          "column": "3",
+          "line": "37",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "SEGUNDA",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@TERCA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "TERCA",
+        "location": {
+          "column": "3",
+          "line": "38",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "TERCA",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@QUARTA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "QUARTA",
+        "location": {
+          "column": "3",
+          "line": "39",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "QUARTA",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@QUINTA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "QUINTA",
+        "location": {
+          "column": "3",
+          "line": "40",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "QUINTA",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@SEXTA",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SEXTA",
+        "location": {
+          "column": "3",
+          "line": "41",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "SEXTA",
+        "origin": "project_file",
+        "scope": null
+      },
+      {
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1229@SABADO",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SABADO",
+        "location": {
+          "column": "3",
+          "line": "42",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+        },
+        "name": "SABADO",
+        "origin": "project_file",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "1",
+      "line": "35",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@drv_RTC_Pause_Count",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void drv_RTC_Pause_Count(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "drv_RTC_Pause_Count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@drv_RTC_Resume_Count",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void drv_RTC_Resume_Count(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "drv_RTC_Resume_Count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_RTC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DRV_RTC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "60",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "DRV_RTC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_RTC_Clock_Read",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "RTC_TIME_TYPE DRV_RTC_Clock_Read(void)",
+    "location": {
+      "column": "15",
+      "line": "102",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "DRV_RTC_Clock_Read",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_RTC_Clock_Write",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DRV_RTC_Clock_Write(RTC_TIME_TYPE)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "DRV_RTC_Clock_Write",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_RTC_Set_Alarm",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DRV_RTC_Set_Alarm(uint8_t, uint8_t, uint8_t)",
+    "location": {
+      "column": "6",
+      "line": "156",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "DRV_RTC_Set_Alarm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@drv_RTC_Pause_Count",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void drv_RTC_Pause_Count(void)",
+    "location": {
+      "column": "6",
+      "line": "174",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "drv_RTC_Pause_Count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@drv_RTC_Resume_Count",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void drv_RTC_Resume_Count(void)",
+    "location": {
+      "column": "6",
+      "line": "180",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
+    },
+    "name": "drv_RTC_Resume_Count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:myRL78.h@294@macro@BIT15",
     "What": "MacroDef",
     "defdec": "Def",
@@ -36288,246 +36642,6 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@56@macro@__DRV_RTC_C__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DRV_RTC_C__",
-    "location": {
-      "column": "9",
-      "line": "4",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "__DRV_RTC_C__",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@604@macro@pwrtwo",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "pwrtwo",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "pwrtwo",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@662@macro@DESIRE_BAUDURATE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DESIRE_BAUDURATE",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DESIRE_BAUDURATE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@699@macro@SYSTEM_CLOCK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SYSTEM_CLOCK",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "SYSTEM_CLOCK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@736@macro@CLOCK_DIV",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLOCK_DIV",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "CLOCK_DIV",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@854@macro@BAUDURATE_VAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BAUDURATE_VAL",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "BAUDURATE_VAL",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1163",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "1",
-      "line": "28",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "members": [
-      {
-        "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1163@FI@lastRead",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "lastRead",
-        "location": {
-          "column": "17",
-          "line": "30",
-          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-        },
-        "name": "lastRead",
-        "origin": "project_file",
-        "scope": "_anonymous_DRV_RTC_c_28_1"
-      },
-      {
-        "ID": "c:@drvRTC_Obj",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "drvRTC_Obj",
-        "location": {
-          "column": "3",
-          "line": "33",
-          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-        },
-        "name": "drvRTC_Obj",
-        "origin": "project_file",
-        "scope": "_anonymous_DRV_RTC_c_28_1"
-      }
-    ],
-    "name": "",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@drv_RTC_Pause_Count",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void drv_RTC_Pause_Count(void)",
-    "location": {
-      "column": "6",
-      "line": "38",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "drv_RTC_Pause_Count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@drv_RTC_Resume_Count",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void drv_RTC_Resume_Count(void)",
-    "location": {
-      "column": "6",
-      "line": "39",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "drv_RTC_Resume_Count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DRV_RTC_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void DRV_RTC_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "49",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DRV_RTC_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DRV_RTC_Clock_Read",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "RTC_TIME_TYPE DRV_RTC_Clock_Read(void)",
-    "location": {
-      "column": "15",
-      "line": "91",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DRV_RTC_Clock_Read",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DRV_RTC_Clock_Write",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void DRV_RTC_Clock_Write(RTC_TIME_TYPE)",
-    "location": {
-      "column": "6",
-      "line": "115",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DRV_RTC_Clock_Write",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DRV_RTC_Set_Alarm",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void DRV_RTC_Set_Alarm(void)",
-    "location": {
-      "column": "6",
-      "line": "146",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DRV_RTC_Set_Alarm",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@drv_RTC_Pause_Count",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void drv_RTC_Pause_Count(void)",
-    "location": {
-      "column": "6",
-      "line": "164",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "drv_RTC_Pause_Count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@drv_RTC_Resume_Count",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void drv_RTC_Resume_Count(void)",
-    "location": {
-      "column": "6",
-      "line": "170",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "drv_RTC_Resume_Count",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:DRV_RTC.h@31@macro@__DRV_RTC_H__",
     "What": "MacroDef",
     "defdec": "Def",
@@ -36715,7 +36829,7 @@
     "ID": "c:@F@DRV_RTC_Set_Alarm",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void DRV_RTC_Set_Alarm(void)",
+    "display": "void DRV_RTC_Set_Alarm(uint8_t, uint8_t, uint8_t)",
     "location": {
       "column": "6",
       "line": "20",
@@ -36880,27 +36994,41 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@873@macro@CHECKSUM_BITE",
+    "ID": "c:DRV_UART.c@873@macro@NUMBER_OF_CHECKSUM_BYTES",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "CHECKSUM_BITE",
+    "display": "NUMBER_OF_CHECKSUM_BYTES",
     "location": {
       "column": "9",
       "line": "24",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
-    "name": "CHECKSUM_BITE",
+    "name": "NUMBER_OF_CHECKSUM_BYTES",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@913@macro@LAST_BITE",
+    "ID": "c:DRV_UART.c@913@macro@NUMBER_OF_FINISH_BYTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NUMBER_OF_FINISH_BYTES",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+    },
+    "name": "NUMBER_OF_FINISH_BYTES",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_UART.c@953@macro@LAST_BITE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LAST_BITE",
     "location": {
       "column": "9",
-      "line": "25",
+      "line": "26",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "LAST_BITE",
@@ -36908,13 +37036,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@1013@macro@BAUDURATE_VAL",
+    "ID": "c:DRV_UART.c@1047@macro@BAUDURATE_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BAUDURATE_VAL",
     "location": {
       "column": "9",
-      "line": "31",
+      "line": "29",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "BAUDURATE_VAL",
@@ -36922,13 +37050,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@1123@macro@UART_BUFFER_SIZE",
+    "ID": "c:DRV_UART.c@1157@macro@UART_BUFFER_SIZE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART_BUFFER_SIZE",
     "location": {
       "column": "9",
-      "line": "33",
+      "line": "31",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "UART_BUFFER_SIZE",
@@ -36936,115 +37064,245 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@S@DRV_UART.c@1158",
+    "ID": "c:@UA@tag_64",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@tag_64@Sa",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "",
+        "location": {
+          "column": "3",
+          "line": "35",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "members": [
+          {
+            "ID": "c:@UA@tag_64@Sa@FI@nb1",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "nb1",
+            "location": {
+              "column": "17",
+              "line": "36",
+              "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+            },
+            "name": "nb1",
+            "origin": "project_file",
+            "scope": "_anonymous_DRV_UART_c_33_9::_anonymous_DRV_UART_c_35_3"
+          },
+          {
+            "ID": "c:@UA@tag_64@Sa@FI@nb2",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "nb2",
+            "location": {
+              "column": "17",
+              "line": "37",
+              "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+            },
+            "name": "nb2",
+            "origin": "project_file",
+            "scope": "_anonymous_DRV_UART_c_33_9::_anonymous_DRV_UART_c_35_3"
+          },
+          {
+            "ID": "c:@UA@tag_64@Sa@FI@nb3",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "nb3",
+            "location": {
+              "column": "17",
+              "line": "38",
+              "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+            },
+            "name": "nb3",
+            "origin": "project_file",
+            "scope": "_anonymous_DRV_UART_c_33_9::_anonymous_DRV_UART_c_35_3"
+          },
+          {
+            "ID": "c:@UA@tag_64@Sa@FI@nb4",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "nb4",
+            "location": {
+              "column": "17",
+              "line": "39",
+              "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+            },
+            "name": "nb4",
+            "origin": "project_file",
+            "scope": "_anonymous_DRV_UART_c_33_9::_anonymous_DRV_UART_c_35_3"
+          }
+        ],
+        "name": "",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_33_9"
+      },
+      {
+        "ID": "c:@UA@tag_64@FI@buf",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "buf",
+        "location": {
+          "column": "12",
+          "line": "42",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "name": "buf",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_33_9"
+      },
+      {
+        "ID": "c:DRV_UART.c@T@tag_64",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "union tag_64",
+        "location": {
+          "column": "3",
+          "line": "44",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "name": "tag_64",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_33_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_UART.c@S@DRV_UART.c@1352",
     "What": "Struct",
     "defdec": "Def",
     "display": "",
     "location": {
       "column": "1",
-      "line": "37",
+      "line": "46",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "members": [
       {
-        "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@FI@firstByteIdx",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "firstByteIdx",
-        "location": {
-          "column": "11",
-          "line": "38",
-          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
-        },
-        "name": "firstByteIdx",
-        "origin": "project_file",
-        "scope": "_anonymous_DRV_UART_c_37_1"
-      },
-      {
-        "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@FI@lastByteIdx",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "lastByteIdx",
-        "location": {
-          "column": "11",
-          "line": "39",
-          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
-        },
-        "name": "lastByteIdx",
-        "origin": "project_file",
-        "scope": "_anonymous_DRV_UART_c_37_1"
-      },
-      {
-        "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@Sa",
+        "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@Sa",
         "What": "Struct",
         "defdec": "Def",
         "display": "",
         "location": {
           "column": "2",
-          "line": "41",
+          "line": "56",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
         },
         "members": [
           {
-            "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@Sa@FI@head",
+            "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@Sa@FI@head",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "head",
             "location": {
               "column": "15",
-              "line": "42",
+              "line": "57",
               "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
             },
             "name": "head",
             "origin": "project_file",
-            "scope": "_anonymous_DRV_UART_c_37_1::_anonymous_DRV_UART_c_41_2"
+            "scope": "_anonymous_DRV_UART_c_46_1::_anonymous_DRV_UART_c_56_2"
           },
           {
-            "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@Sa@FI@data",
+            "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@Sa@FI@data",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "data",
             "location": {
               "column": "15",
-              "line": "43",
+              "line": "58",
               "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
             },
             "name": "data",
             "origin": "project_file",
-            "scope": "_anonymous_DRV_UART_c_37_1::_anonymous_DRV_UART_c_41_2"
+            "scope": "_anonymous_DRV_UART_c_46_1::_anonymous_DRV_UART_c_56_2"
           },
           {
-            "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@Sa@FI@checksum",
+            "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@Sa@FI@checksum",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "checksum",
             "location": {
               "column": "15",
-              "line": "44",
+              "line": "59",
               "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
             },
             "name": "checksum",
             "origin": "project_file",
-            "scope": "_anonymous_DRV_UART_c_37_1::_anonymous_DRV_UART_c_41_2"
+            "scope": "_anonymous_DRV_UART_c_46_1::_anonymous_DRV_UART_c_56_2"
           },
           {
-            "ID": "c:DRV_UART.c@S@DRV_UART.c@1158@Sa@FI@last",
+            "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@Sa@FI@last",
             "What": "FieldDecl",
             "defdec": "Def",
             "display": "last",
             "location": {
               "column": "15",
-              "line": "45",
+              "line": "60",
               "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
             },
             "name": "last",
             "origin": "project_file",
-            "scope": "_anonymous_DRV_UART_c_37_1::_anonymous_DRV_UART_c_41_2"
+            "scope": "_anonymous_DRV_UART_c_46_1::_anonymous_DRV_UART_c_56_2"
           }
         ],
         "name": "",
         "origin": "project_file",
-        "scope": "_anonymous_DRV_UART_c_37_1"
+        "scope": "_anonymous_DRV_UART_c_46_1"
+      },
+      {
+        "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@FI@data_count",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "data_count",
+        "location": {
+          "column": "10",
+          "line": "63",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "name": "data_count",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_46_1"
+      },
+      {
+        "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@FI@tag_buffer",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "tag_buffer",
+        "location": {
+          "column": "10",
+          "line": "65",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "name": "tag_buffer",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_46_1"
+      },
+      {
+        "ID": "c:DRV_UART.c@S@DRV_UART.c@1352@FI@buffer_idx",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "buffer_idx",
+        "location": {
+          "column": "10",
+          "line": "67",
+          "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+        },
+        "name": "buffer_idx",
+        "origin": "project_file",
+        "scope": "_anonymous_DRV_UART_c_46_1"
       },
       {
         "ID": "c:@drvUART_obj",
@@ -37053,12 +37311,12 @@
         "display": "drvUART_obj",
         "location": {
           "column": "3",
-          "line": "49",
+          "line": "69",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
         },
         "name": "drvUART_obj",
         "origin": "project_file",
-        "scope": "_anonymous_DRV_UART_c_37_1"
+        "scope": "_anonymous_DRV_UART_c_46_1"
       }
     ],
     "name": "",
@@ -37072,7 +37330,7 @@
     "display": "void DRV_UART_Init(void)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "79",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "DRV_UART_Init",
@@ -37086,7 +37344,7 @@
     "display": "void DRV_UART_RX_IT(void)",
     "location": {
       "column": "6",
-      "line": "109",
+      "line": "139",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "DRV_UART_RX_IT",
@@ -37094,16 +37352,44 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@2528@F@DRV_UART_RX_IT@received",
-    "What": "Variable",
+    "ID": "c:@F@DRV_UART_Checksum_Verify",
+    "What": "Function",
     "defdec": "Def",
-    "display": "received",
+    "display": "void DRV_UART_Checksum_Verify(void)",
     "location": {
-      "column": "11",
-      "line": "111",
+      "column": "6",
+      "line": "199",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
-    "name": "received",
+    "name": "DRV_UART_Checksum_Verify",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_UART.c@4430@F@DRV_UART_Checksum_Verify@byte",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "byte",
+    "location": {
+      "column": "9",
+      "line": "202",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+    },
+    "name": "byte",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_UART.c@4430@F@DRV_UART_Checksum_Verify@checksum",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "checksum",
+    "location": {
+      "column": "15",
+      "line": "202",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
+    },
+    "name": "checksum",
     "origin": "project_file",
     "scope": null
   },

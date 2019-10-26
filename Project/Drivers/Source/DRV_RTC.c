@@ -32,6 +32,17 @@ struct {
   
 } drvRTC_Obj;
 
+enum {
+  DOMINGO,
+  SEGUNDA,
+  TERCA,
+  QUARTA,
+  QUINTA,
+  SEXTA,
+  SABADO
+} week_days;
+
+
 /****************************************************************************
                              DELCARAÇÃO DE FUNÇÕES LOCAIS
 *****************************************************************************/
@@ -102,7 +113,6 @@ RTC_TIME_TYPE DRV_RTC_Clock_Read(void){
   
   drv_RTC_Resume_Count();
   
-  
   return drvRTC_Obj.lastRead;
   
 }
@@ -143,14 +153,14 @@ void DRV_RTC_Clock_Write(RTC_TIME_TYPE RTC_Time ){
 @param: RTC_TIME_TYPE - Struct com informações de tempo
 @return: 
 */ 
-void DRV_RTC_Set_Alarm(){
-  
+void DRV_RTC_Set_Alarm(uint8_t month, uint8_t week, uint8_t hour){
+   
   WALE                          = 0;
   WALIE                         = 1;
   
-  ALARMWM                       = 0;
-  ALARMWH                       = 0;
-  ALARMWW                       = 0;
+  ALARMWM                       = month;
+  ALARMWH                       = hour;
+  ALARMWW                       = week;
   
   WALE = 1;
 
