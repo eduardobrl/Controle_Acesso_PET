@@ -1,5 +1,6 @@
 #ifndef __DRV_RTC_H__
 #define __DRV_RTC_H__
+#include <stdint.h>
 
 typedef struct {
   

@@ -1997,6 +1997,9 @@
         <file>
             <name>$PROJ_DIR$\Hooks.h</name>
         </file>
+        <file>
+            <name>$PROJ_DIR$\Types.h</name>
+        </file>
     </group>
     <group>
         <name>Headers</name>
@@ -2004,6 +2007,9 @@
             <name>Control</name>
             <file>
                 <name>$PROJ_DIR$\Control\Headers\CTRL_Button.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Control\Headers\CTRL_PetAccess.h</name>
             </file>
         </group>
         <group>
@@ -2051,8 +2057,5 @@
     </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\Types.h</name>
     </file>
 </project>

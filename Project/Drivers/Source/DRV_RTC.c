@@ -51,8 +51,6 @@ void drv_RTC_Resume_Count();
 /****************************************************************************
                              FUNÇÕES GLOBAIS
 *****************************************************************************/
-
-
 /*
 @brief: Inicializa o driver de UART 
 @param: None
@@ -147,7 +145,6 @@ void DRV_RTC_Clock_Write(RTC_TIME_TYPE RTC_Time ){
  
 }
 
-
 /*
 @brief: Escolhe 
 @param: RTC_TIME_TYPE - Struct com informações de tempo
@@ -165,7 +162,6 @@ void DRV_RTC_Set_Alarm(uint8_t month, uint8_t week, uint8_t hour){
   WALE = 1;
 
 }
-
 
 /****************************************************************************
                              FUNÇÕES LOCAIS

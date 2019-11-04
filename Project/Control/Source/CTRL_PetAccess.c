@@ -1,38 +1,38 @@
 #ifndef __CTRL_BUTTON_C__
 #define __CTRL_BUTTON_C__
 
+
+/************************************************
+ *  INCLUDES
+ ***********************************************/
+#include <stdint.h>
+   
+#include "Types.h"
 #include "Hardware.h"
 #include "Hooks.h"
+   
+#include "CTRL_PetAccess.h"   
+   
 #include "ior5f100le.h"
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
-#include <stdint.h>
-
-typedef enum {
-  BLOQUEADO,
-  DISPONIVEL,
-  LIBERADO
-} PetAccess_state;  
 
 
-typedef struct {
-  uint64_t              RFID_CODE;
-  char                  CAT_NAME[40];
-  uint8_t               SECS;
-  uint8_t               MINS;
-  PetAccess_state       STATE;
-} Pet_Access_type;
+/************************************************
+ *  Structs Globais
+ ***********************************************/
+struct {
+  WORD isEnabled;
+  
+  
+} ctrlPetAccess_obj;
 
-#define NUM_OF_PETS     3
-
-Pet_Access_type   Pets_Table[NUM_OF_PETS] = {
-  {0,"Gato 1", 50,1, BLOQUEADO},
-  {0,"Gato 2", 30,1, BLOQUEADO},
-  {0,"Gato 3", 30,0, BLOQUEADO}
-};
-
+/************************************************
+ *  Funções Globais
+ ***********************************************/
 void CTRL_Pet_Access_Init(){
   
+  ctrlPetAccess_obj.isEnabled = TRUE;
   
 
 }
@@ -53,4 +53,7 @@ void CTRL_Pet_Access_Tasks(){
 
 }
 
+/************************************************
+ *  Funções Locais
+ ***********************************************/
 #endif

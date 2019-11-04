@@ -3,12 +3,15 @@
 #ifndef __DRV_UART_C__
 #define __DRV_UART_C__
 
+#ifdef I_SUPPORT_DRV_UART
+
 /****************************************************************************
                              INCLUDES
 *****************************************************************************/
 #include "ior5f100le.h"
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
+#include "DRV_UART.h"
 #include "myRL78.h"
 /****************************************************************************
                              MACROS LOCAIS
@@ -18,17 +21,13 @@
 #define SYSTEM_CLOCK           32E6
 #define CLOCK_DIV              pwrtwo(SAU_CK0_DIV16) //*GLOBAL
 
-//RDM6300
-#define HEAD_BYTE                 0x02
-#define NUMBER_OF_DATA_BYTES      0x04
-#define NUMBER_OF_CHECKSUM_BYTES  0x02
-#define NUMBER_OF_FINISH_BYTES    0x01
-#define LAST_BITE                 0x03
-
 /*CALCULATE BAUDURATE BASED ON DESIRED BAUDURATE*/
 #define BAUDURATE_VAL        (unsigned short)((SYSTEM_CLOCK)/ ( CLOCK_DIV * 2.0 * DESIRE_BAUDURATE) - 1.0)
 
 #define UART_BUFFER_SIZE        256
+
+#define __9600BPS 51 << 9
+#define LED P7_bit.no7
 
 typedef union {
   
@@ -68,6 +67,9 @@ struct {
  
 } drvUART_obj;
 
+void drv_UART_0_Init(void);
+void drv_UART_2_Init(void);
+
 /****************************************************************************
                              FUNÇÕES GLOBAIS
 *****************************************************************************/
@@ -86,6 +88,43 @@ void DRV_UART_Init(void)
   drvUART_obj.data_count        = 0x00;
   drvUART_obj.buffer_idx        = 0x00;
   
+  //drv_UART_0_Init();
+  drv_UART_2_Init();
+}
+
+
+
+void DRV_UART_Checksum_Verify(void){
+
+  if(drvUART_obj.status == FINISH ){
+    int byte, checksum;
+    
+    for (byte = 0; byte < NUMBER_OF_DATA_BYTES; byte++){
+      checksum ^= drvUART_obj.data[byte];
+    }
+    
+    if(checksum != drvUART_obj.checksum){
+     //error_drop_frame 
+      drvUART_obj.status = IDLE;
+    }
+    
+    else{
+      //if checksum is verified then save the tag
+      //drvUART_obj.tag_buffer[drvUART_obj.buffer_idx].buf = drvUART_obj.data;
+      drvUART_obj.status = IDLE;
+    }
+    
+  }
+  
+}
+
+
+/****************************************************************************
+                             FUNÇÕES LOCAIS
+*****************************************************************************/
+
+void drv_UART_0_Init(void){
+   PM1_bit.no1 = 1; // P11/RXD0 como entrada
   /*Peripheral Initialization*/
   /*
   * Setting the PER0 register
@@ -93,33 +132,32 @@ void DRV_UART_Init(void)
   * reset status and start clock supply.
   */
   SAU0EN = 1;
-
   /*
   * Setting the SPSm register
   * Set the operation clock.
   */
   
-  SPS0 = SAU_CK0_DIV16;
+  SPS0 = SAU_CK0_DIV32;//SAU_CK0_DIV16;
   
    /*
   * Setting the SMRmn and SMRmr registers
   * Set an operation mode, etc.
   */
   
-  SMR00 = SAU_MD_UART;
+  SMR01 = bSAU_STS | SAU_MD_UART;
   
    /*
   * Setting the SCRmn register
   * Set a communication format.
   */
   
-  SCR00 = SAU_8BITS | SAU_NO_PARITY | SAU_COMM_RX;
+  SCR01 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
   
    /*
   * Setting the SDRmn register
   * Set a transfer baud rate
   */
-  SDR00 = (BAUDURATE_VAL << 8);
+  SDR01 = __9600BPS;
    /*
   * Setting port
   * Enable data input of the target channel
@@ -131,12 +169,53 @@ void DRV_UART_Init(void)
   * Writing to the SSm register
   * 
   */
-  SS0 = SAU_CH0;
   
+  NFEN0 = SNFEN00;
+ // Dispara os canais 1 da SA0
+  SS0 = SAU_CH1;
+  SRMK0 = 0;
 }
 
 
-void DRV_UART_RX_IT(){
+void drv_UART_2_Init(void)
+{
+ PM1_bit.no3 = 0; // P13/TXD2 como saída
+ P1_bit.no3 = 1; // coloca TXD2 em 1 (importante!!!)
+ PM1_bit.no4 = 1; // P14/RXD2 como entrada
+ PM7_bit.no7 = 0; // P77 como saída (led)
+ LED = 1; // desliga o led 
+ 
+ SAU1EN = 1; // ativa a SAU1
+ // Clock CK0 da SAU1 = 32MHz / 32 = 1MHz
+ SPS1 = SAU_CK0_DIV32;
+ // Configura o canal 0 da SAU1 (transmissão da UART2)
+ SMR10 = SAU_MD_UART | SAU_INT_BUFFER;
+ SCR10 = SAU_COMM_TX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
+ SDR10 = __9600BPS; // seta o baud rate do transmissor
+ // Configura o canal 1 da SAU1 (recepção da UART2)
+ SMR11 = bSAU_STS | SAU_MD_UART;
+ SCR11 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
+ SDR11 = __9600BPS; // seta o baud rate do receptor
+ SOE1 = SAU_CH0; // habilita a saída da UART2
+ SO1 = SAU_CH0; // seta a saída TXD2
+ NFEN0 = SNFEN20; // ativa o filtro digital da entrada RXD2
+ // Dispara os canais 0 e 1 da SAU1
+ SS1 = SAU_CH1 | SAU_CH0;
+ SRMK2 = 0; // habilita a interrupção de recepção da UART
+ __enable_interrupt(); // habilita as interrupções do RL78
+}
+
+
+/****************************************************************************
+                             TRATAMENTO DE INTERRUPÇÕES
+*****************************************************************************/
+
+#pragma vector = INTSR0_vect // escreve função de interrupção no vetor do IT
+__interrupt  void DRV_UART_RX_IT(){
+  
+ unsigned char temp;
+ temp = RXD0; // lê o caractere recebido
+ TXD2 = temp; // envia o caractere (seguinte)
   
   switch(drvUART_obj.status){
        
@@ -189,36 +268,33 @@ void DRV_UART_RX_IT(){
     break;
       
     default:
+      drvUART_obj.status = IDLE;      
       break;
   }
   
-  //LIMPAR FLAG
+  SRIF0 = 0;
 }
 
 
-void DRV_UART_Checksum_Verify(void){
-
-  if(drvUART_obj.status == FINISH ){
-    int byte, checksum;
-    
-    for (byte = 0; byte < NUMBER_OF_DATA_BYTES; byte++){
-      checksum ^= drvUART_obj.data[byte];
-    }
-    
-    if(checksum != drvUART_obj.checksum){
-     //error_drop_frame 
-      drvUART_obj.status = IDLE;
-    }
-    
-    else{
-      //if checksum is verified then save the tag
-      //drvUART_obj.tag_buffer[drvUART_obj.buffer_idx].buf = drvUART_obj.data;
-      drvUART_obj.status = IDLE;
-    }
-    
-  }
-  
+#pragma vector = INTSR2_vect
+__interrupt void trata_rx_UART2(void)
+{
+ unsigned char temp;
+ temp = RXD2; // lê o caractere recebido
+ TXD2 = temp+1; // envia o caractere (seguinte)
+ if (temp=='a') LED = 0; // se recebeu "a", liga o led
+ if (temp=='b') LED = 1; // se recebeu "b", desliga o led
+}
+#pragma vector = INTST2_vect
+__interrupt void trata_tx_UART2(void)
+{
 }
 
 
+
+
+
+
+#endif
 #endif 
+

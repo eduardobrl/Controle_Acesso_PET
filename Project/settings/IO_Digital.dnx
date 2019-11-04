@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>4034225793</Checksum>
+        <Checksum>3148512299</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -137,28 +137,13 @@
         <SeqData24>0,0,0,0,0,0</SeqData24>
         <TraceSettings>128,0,0,0,0,0,8192</TraceSettings>
         <TimerSettings>0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0</TimerSettings>
-        <Version>1,xxx.txt</Version>
+        <Version>1,trace.txt</Version>
         <LastDevFile>DR5F100LE.DVF</LastDevFile>
         <EmulType>64</EmulType>
         <BreakToggle>0</BreakToggle>
         <EventLimits>0,1,1,0,0,0,1</EventLimits>
-        <LastSetupFailed>1</LastSetupFailed>
+        <LastSetupFailed>0</LastSetupFailed>
     </E1>
-    <TraceHelper>
-        <Enabled>0</Enabled>
-        <ShowSource>1</ShowSource>
-    </TraceHelper>
-    <DataSample>
-        <LogEnabled>0</LogEnabled>
-        <GraphEnabled>0</GraphEnabled>
-        <ShowTimeLog>1</ShowTimeLog>
-    </DataSample>
-    <Breakpoints>
-        <Count>0</Count>
-    </Breakpoints>
-    <Monitor_Execution>
-        <Leave_target_running>0</Leave_target_running>
-    </Monitor_Execution>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>1</Mode>
@@ -172,15 +157,6 @@
     <CallStackStripe>
         <ShowTiming>1</ShowTiming>
     </CallStackStripe>
-    <TermIOLog>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-    </TermIOLog>
-    <LogFile>
-        <LoggingEnabled>_ 0</LoggingEnabled>
-        <LogFile>_ ""</LogFile>
-        <Category>_ 0</Category>
-    </LogFile>
     <InterruptLog>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -214,12 +190,39 @@
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>
     </Trace1>
-    <Aliases>
-        <Count>0</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
     <Simulator>
         <Freq>10000000</Freq>
         <FreqHi>0</FreqHi>
     </Simulator>
+    <DataSample>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+    </DataSample>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TraceHelper>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </TraceHelper>
+    <Breakpoints>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.35.1" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\Drivers\Source\DRV_UART.c}.220.5" 1 0 0 0 "" 0 ""</Bp1>
+        <Bp2>_ "STD_CODE" "{$PROJ_DIR$\Drivers\Source\DRV_UART.c}.224.7" 1 0 0 0 "" 0 ""</Bp2>
+        <Count>3</Count>
+    </Breakpoints>
+    <Monitor_Execution>
+        <Leave_target_running>0</Leave_target_running>
+    </Monitor_Execution>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
 </settings>

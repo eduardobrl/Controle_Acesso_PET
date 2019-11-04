@@ -6,10 +6,12 @@
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
 
+#define I_SUPPORT_DRV_UART
 //PINS DEFINITIONS
 
-
-//LEDS
+/************************************************
+ *  LEDS
+ ***********************************************/
 #define LED1_OUT                P7_bit.no0
 #define LED1_PU                 PU7_bit.no0
 #define LED1_PM                 PM7_bit.no0
@@ -26,8 +28,9 @@
 #define LED_PLACA               P7_bit.no7
 #define LED_PLACA_PM            P7_bit.no7
 
-//BOTOES
-
+/************************************************
+ *  BOTOES
+ ***********************************************/
 
 #define SW1_IN                  P5_bit.no4
 #define SW1_PU                  PU5_bit.no4
@@ -37,7 +40,6 @@
 #define SW2_PU                  PU5_bit.no3
 #define SW2_PM                  PU5_bit.no3
 
-
 #define SET_PIN(pin)            pin  =       0
 #define CLR_PIN(pin)            pin  =       1
 #define TOGGLE_PIN(pin)         pin  ^=      1
@@ -45,9 +47,24 @@
 #define READ_PIN(pin)           pin
 
 
-//*******************************************************
-//                     
-//*******************************************************
+/************************************************
+ *  LEITOR RFID - RDM65300
+ ***********************************************/
+//RDM6300
+#define HEAD_BYTE                 0x02
+#define NUMBER_OF_DATA_BYTES      0x04
+#define NUMBER_OF_CHECKSUM_BYTES  0x02
+#define NUMBER_OF_FINISH_BYTES    0x01
+#define LAST_BITE                 0x03
+
+/************************************************
+ *  SERVO MOTOR
+ ***********************************************/
+
+
+/************************************************
+ *  DEFINIÇÕES PARA CONFIGURAÇÃO DE PORTAS
+ ***********************************************/
 
 //PORT_MODE_OPTIONS
 #define PORT_OUTPUT_MODE                (0u)
@@ -76,8 +93,9 @@
 
 #define RESERVED                        (0u)
 
-/******************************************************/
-//PORT0
+/************************************************
+ *  PORT0
+ ***********************************************/
 #define P00_MODE                 (PORT_OUTPUT_MODE)
 #define P00_PORT                 (PORT_OFF)
 #define P00_PULL                 (PORT_PULL_NO)
@@ -182,8 +200,9 @@
                                     P01_PORT_MODE << 1u | \
                                     P00_PORT_MODE << 0u )
 
-/******************************************************/
-//PORT1
+/************************************************
+ *  PORT1
+ ***********************************************/
 #define P10_MODE                 (PORT_OUTPUT_MODE)
 #define P10_PORT                 (PORT_OFF)
 #define P10_PULL                 (PORT_PULL_NO)
@@ -206,13 +225,13 @@
 #define P12_PORT_MODE            (PORT_DIGITAL)
 
 #define P13_MODE                 (PORT_OUTPUT_MODE)
-#define P13_PORT                 (PORT_OFF)
+#define P13_PORT                 (PORT_ON)
 #define P13_PULL                 (PORT_PULL_NO)
 #define P13_INPUT_MODE           (PORT_NORMAL_INPUT)
 #define P13_OUTPUT_MODE          (PORT_NORMAL_OUTPUT)
 #define P13_PORT_MODE            (PORT_DIGITAL)
 
-#define P14_MODE                 (PORT_OUTPUT_MODE)
+#define P14_MODE                 (PORT_INPUT_MODE)
 #define P14_PORT                 (PORT_OFF)
 #define P14_PULL                 (PORT_PULL_NO)
 #define P14_INPUT_MODE           (PORT_NORMAL_INPUT)
@@ -294,8 +313,9 @@
                                     P11_PORT_MODE << 1u | \
                                     P10_PORT_MODE << 0u )
 
-/******************************************************/
-//PORT2
+/************************************************
+ *  PORT2
+ ***********************************************/
 #define P20_MODE                 (PORT_OUTPUT_MODE)
 #define P20_PORT                 (PORT_OFF)
 
@@ -338,8 +358,9 @@
                                     P21_PORT << 1u | \
                                     0 << 0u )
 
-/******************************************************/
-//PORT3
+/************************************************
+ *  PORT3
+ ***********************************************/
 #define P30_MODE                 (PORT_OUTPUT_MODE)
 #define P30_PORT                 (PORT_OFF)
 #define P30_PULL                 (PORT_PULL_NO)
@@ -358,8 +379,9 @@
                                     P30_MODE << 0u )
 
 
-/******************************************************/
-//PORT4
+/************************************************
+ *  PORT4
+ ***********************************************/
 #define P40_MODE                 (PORT_OUTPUT_MODE)
 #define P40_PORT                 (PORT_OFF)
 #define P40_PULL                 (PORT_PULL_NO)
@@ -390,10 +412,9 @@
                                     P42_PULL << 2u | \
                                     P41_PULL << 1u | \
                                     P40_MODE << 0u )
-
-
-/******************************************************/
-//PORT5
+/************************************************
+ *  PORT5
+ ***********************************************/
 #define P50_MODE                 (PORT_OUTPUT_MODE)
 #define P50_PORT                 (PORT_OFF)
 #define P50_PULL                 (PORT_PULL_NO)
@@ -421,8 +442,9 @@
 #define P55_PULL                 (PORT_PULL_NO)
 #define P55_INPUT_MODE           (PORT_NORMAL_INPUT)
 #define P55_OUTPUT_MODE          (PORT_NORMAL_OUTPUT)
-/******************************************************/
-//PORT6
+/************************************************
+ *  PORT6
+ ***********************************************/
 #define P40_MODE                 (PORT_OUTPUT_MODE)
 #define P40_PORT                 (PORT_OFF)
 #define P40_PULL                 (PORT_PULL_NO)
@@ -439,8 +461,9 @@
 #define P43_PORT                 (PORT_OFF)
 #define P43_PULL                 (PORT_PULL_NO)
 
-/******************************************************/
-//PORT7
+/************************************************
+ *  PORT7
+ ***********************************************/
 #define P70_MODE                 (PORT_INPUT_MODE)
 #define P70_PORT                 (PORT_OFF)
 #define P70_PULL                 (PORT_PULL_UP)
@@ -471,8 +494,8 @@
 #define P76_PORT                 (PORT_OFF)
 #define P76_PULL                 (PORT_PULL_UP)
 
-#define P77_MODE                 (PORT_INPUT_MODE)
-#define P77_PORT                 (PORT_OFF)
+#define P77_MODE                 (PORT_OUTPUT_MODE)
+#define P77_PORT                 (PORT_ON)
 #define P77_PULL                 (PORT_PULL_UP)
 
 #define P7_MODE                 (   P77_MODE << 7u | \

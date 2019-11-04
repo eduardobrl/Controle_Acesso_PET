@@ -2,5 +2,4 @@
 #define __DRV_UART_H__
 
 void DRV_UART_Init(void);
-
 #endif 
