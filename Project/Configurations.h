@@ -1,0 +1,7 @@
+#ifndef __CONFIGURATIONS_H__
+#define __CONFIGURATIONS_H__
+
+//#define NOT_DEBUGGING
+//define I_SUPORT_FAST_DEMONSTRATION
+
+#endif

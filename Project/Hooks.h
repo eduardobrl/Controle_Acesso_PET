@@ -23,6 +23,23 @@
 #define HOOK_TURN_OFF_MUSICAL()         DRV_Speaker_Turn_Off()
                                           
 /*****************************************************************************
-                          
+                          CTRL_PetAccess.c
 *****************************************************************************/
+              
+#include "lcd_16x28b.h"
+                                          
+#define HOOK_ACESSO_BLOQUEADO(petTable)                 DRV_Speaker_Turn_Off()                                   
+#define HOOK_LIBERAR_ACESSO(petTable)                   DRV_Speaker_Turn_Off()
+#define HOOK_ACESSO_LIBERADO(petTable)                  DRV_Speaker_Turn_Off()
+#define HOOK_INICIA_LIBERACAO()                         DRV_Speaker_Turn_Off()
+#define HOOK_FINALIZA_LIBERACAO()                         DRV_Speaker_Turn_Off()              
+
+/*****************************************************************************
+                          DRV_RTC.c
+*****************************************************************************/
+#include "CTRL_PetAccess.h"
+                                          
+#define HOOK_PET_ACCESS_TIME_EVENT()                    CTRL_PetAccess_Time_Event();
+
+
 #endif

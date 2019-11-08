@@ -1992,6 +1992,9 @@
     <group>
         <name>Configuration</name>
         <file>
+            <name>$PROJ_DIR$\Configurations.h</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\Hardware.h</name>
         </file>
         <file>
@@ -2026,6 +2029,9 @@
             <file>
                 <name>$PROJ_DIR$\Drivers\Headers\DRV_UART.h</name>
             </file>
+            <file>
+                <name>$PROJ_DIR$\Drivers\Headers\lcd_16x28b.h</name>
+            </file>
         </group>
     </group>
     <group>
@@ -2052,6 +2058,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\Drivers\Source\DRV_UART.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Drivers\Source\lcd_16x28b.c</name>
             </file>
         </group>
     </group>

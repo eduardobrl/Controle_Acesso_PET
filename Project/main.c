@@ -83,10 +83,13 @@ void main(void)
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
 #include "myRL78.h"
-#include "Modules.h"
 #include "CTRL_Button.h"
+
 #include "DRV_UART.h"
 #include "DRV_RTC.h"
+#include "lcd_16x28b.h"
+#include "CTRL_PetAccess.h"
+
 #include "Hardware.h"
 
 // Configura watchdog = desligado
@@ -116,13 +119,16 @@ void main( void )
   
   //CTRL_Button_Init();
   DRV_UART_Init();
-  //DRV_RTC_Init();
-  
+  DRV_RTC_Init();
+  LCD_init_4_bits();
+
   __enable_interrupt();
   
+
   while (1)
   {  
-    //CTRL_Button_Task();
+    CTRL_Pet_Access_Tasks();
+    
   }
 }
 #endif

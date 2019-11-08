@@ -27,7 +27,7 @@
 *****************************************************************************/
 struct {
   
-  RTC_TIME_TYPE lastRead;
+  RTC_TIME lastRead;
   
   
 } drvRTC_Obj;
@@ -67,7 +67,7 @@ void DRV_RTC_Init(void)
   OSMC          = bWUTMMCK0;
 
   //Selects 12-/24-hour system and interrupt (INTRTC).
-  RTCC0         = bAMPM | INT_RTC_OFF;
+  RTCC0         = bAMPM | INT_RTC_1S;
 
   //Sets timer registers
   SEC           = 0;
@@ -97,17 +97,20 @@ void DRV_RTC_Init(void)
 @param: None
 @return: Devolve uma struct contendo todas as leituras
 */ 
-RTC_TIME_TYPE DRV_RTC_Clock_Read(void){
+RTC_TIME DRV_RTC_Clock_Read(void){
   
   drv_RTC_Pause_Count();
   
-  drvRTC_Obj.lastRead.day        = DAY;
-  drvRTC_Obj.lastRead.hour       = HOUR;
-  drvRTC_Obj.lastRead.min        = MIN;
-  drvRTC_Obj.lastRead.month      = MONTH;
-  drvRTC_Obj.lastRead.year       = YEAR;
   drvRTC_Obj.lastRead.sec        = SEC;
-  drvRTC_Obj.lastRead.week       = WEEK;
+  drvRTC_Obj.lastRead.min        = MIN;
+  drvRTC_Obj.lastRead.hour       = HOUR;
+
+  #if defined(I_SUPORT_FAST_DEMONSTRATION)
+    drvRTC_Obj.lastRead.day        = DAY;
+    drvRTC_Obj.lastRead.month      = MONTH;
+    drvRTC_Obj.lastRead.year       = YEAR;
+    drvRTC_Obj.lastRead.week       = WEEK;
+  #endif
   
   drv_RTC_Resume_Count();
   
@@ -117,29 +120,32 @@ RTC_TIME_TYPE DRV_RTC_Clock_Read(void){
 
 /*
 @brief: Lê todos os registradores de tempo do RTC
-@param: RTC_TIME_TYPE - Struct com informações de tempo
+@param: RTC_TIME - Struct com informações de tempo
 @return: 
 */ 
-void DRV_RTC_Clock_Write(RTC_TIME_TYPE RTC_Time ){
+void DRV_RTC_Clock_Write(RTC_TIME RTC_Time ){
   
   drv_RTC_Pause_Count();
   
-  
-  drvRTC_Obj.lastRead.day        = RTC_Time.day;
   drvRTC_Obj.lastRead.hour       = RTC_Time.hour;
   drvRTC_Obj.lastRead.min        = RTC_Time.min;
-  drvRTC_Obj.lastRead.month      = RTC_Time.month;
-  drvRTC_Obj.lastRead.year       = RTC_Time.year;
   drvRTC_Obj.lastRead.sec        = RTC_Time.sec;
-  drvRTC_Obj.lastRead.week       = RTC_Time.week;
-  
-  DAY                            = drvRTC_Obj.lastRead.day;
+
   HOUR                           = drvRTC_Obj.lastRead.hour;
   MIN                            = drvRTC_Obj.lastRead.min;
-  MONTH                          = drvRTC_Obj.lastRead.month;
-  YEAR                           = drvRTC_Obj.lastRead.year;
   SEC                            = drvRTC_Obj.lastRead.sec;
-  WEEK                           = drvRTC_Obj.lastRead.week;
+ 
+  #if defined(I_SUPORT_FAST_DEMONSTRATION)
+    drvRTC_Obj.lastRead.day        = RTC_Time.day;
+    drvRTC_Obj.lastRead.month      = RTC_Time.month;
+    drvRTC_Obj.lastRead.year       = RTC_Time.year;
+    drvRTC_Obj.lastRead.week       = RTC_Time.week;
+    
+    DAY                            = drvRTC_Obj.lastRead.day;
+    WEEK                           = drvRTC_Obj.lastRead.week;
+    MONTH                          = drvRTC_Obj.lastRead.month;
+    YEAR                           = drvRTC_Obj.lastRead.year;
+  #endif
   
   drv_RTC_Resume_Count();
  
@@ -147,7 +153,7 @@ void DRV_RTC_Clock_Write(RTC_TIME_TYPE RTC_Time ){
 
 /*
 @brief: Escolhe 
-@param: RTC_TIME_TYPE - Struct com informações de tempo
+@param: RTC_TIME - Struct com informações de tempo
 @return: 
 */ 
 void DRV_RTC_Set_Alarm(uint8_t month, uint8_t week, uint8_t hour){
@@ -163,9 +169,130 @@ void DRV_RTC_Set_Alarm(uint8_t month, uint8_t week, uint8_t hour){
 
 }
 
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+void DRV_RTC_Reload(RTC_TIME * pTime, RTC_TIME * pReload){
+  
+  pTime -> sec = pReload ->sec;
+  pTime -> min = pReload ->min;
+  pTime -> hour = pReload ->hour;
+
+}
+
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+void DRV_RTC_Add_Sec(RTC_TIME * pTime, WORD secs){
+  WORD min;
+  
+  min = secs / 60;
+  secs = secs % 60;
+  
+  DRV_RTC_Add_Min(pTime, min);
+  
+  pTime ->sec +=  secs;
+  
+  pTime ->sec %= 60;
+    
+}
+
+
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+void DRV_RTC_Add_Min(RTC_TIME * pTime, WORD mins){
+  
+  pTime ->min +=  mins;
+  
+  pTime ->min %= 60;
+}
+
+
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+void DRV_RTC_Rem_Sec(RTC_TIME * pTime, WORD secs){
+  volatile WORD min, temp;
+  
+  min = secs / 60;
+  secs %= 60;
+   
+  if(pTime->sec > secs){
+    pTime->sec -= secs;
+  }
+  
+  else{
+    temp = pTime->sec;
+    secs = secs - temp;
+    pTime->sec = 60 - secs ;  
+    
+    DRV_RTC_Rem_Min(pTime,1); //removes 1 minute
+  }
+  
+  DRV_RTC_Rem_Min(pTime,min);
+  
+}
+
+
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+void DRV_RTC_Rem_Min(RTC_TIME * pTime, WORD mins){
+  volatile WORD temp;
+  
+  mins %= 60;
+  
+  if(pTime->min > mins){
+    pTime->min -= mins; 
+  }
+  
+  else{
+    temp = pTime->min;
+    mins = mins - temp;
+    pTime->min = 60 - mins ;
+  }
+
+}
+
+/*
+@brief: Escolhe 
+@param: RTC_TIME - Struct com informações de tempo
+@return: 
+*/ 
+WORD DRV_RTC_Is_Ready(RTC_TIME * pTime){
+  
+  if( (pTime ->sec == 0) && (pTime ->min == 0) ){
+    return 1;
+  }
+  
+  return 0;
+  
+}
+
+#pragma vector = INTRTC_vect // escreve função de interrupção no vetor do IT
+__interrupt void DRV_RTC_IT_Handler(void){
+  
+
+}
+  
+
+
 /****************************************************************************
                              FUNÇÕES LOCAIS
 *****************************************************************************/
+
+
 
 void drv_RTC_Pause_Count(){
   RWAIT = 1;
