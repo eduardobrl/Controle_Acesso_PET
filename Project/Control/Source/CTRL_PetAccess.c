@@ -47,7 +47,7 @@ void CTRL_Pet_Access_Tasks(){
       switch(Pets_Table[pet].State){
         
         case(BLOQUEADO):
-          
+#if 0
           LCD_send8(0,CLR_DISPLAY);
           LCD_pos_xy(0,0);
           LCD_write_string(Pets_Table[pet].Cat_Name);
@@ -58,7 +58,7 @@ void CTRL_Pet_Access_Tasks(){
           LCD_write_word(Pets_Table[pet].Time.min);
           LCD_write_char(':');
           LCD_write_word(Pets_Table[pet].Time.sec);
-          
+#endif   
           HOOK_ACESSO_BLOQUEADO(&Pets_Table[pet]);
           break;
         
@@ -140,8 +140,6 @@ void CTRL_PetAccess_Time_Event(void) {
   
   RTCIF = 0;
 }
-
-
 
 
  

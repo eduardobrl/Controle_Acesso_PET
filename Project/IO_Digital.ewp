@@ -2021,6 +2021,9 @@
                 <name>$PROJ_DIR$\Drivers\Headers\DRV_Leds.h</name>
             </file>
             <file>
+                <name>$PROJ_DIR$\Drivers\Headers\DRV_Motor.h</name>
+            </file>
+            <file>
                 <name>$PROJ_DIR$\Drivers\Headers\DRV_RTC.h</name>
             </file>
             <file>
@@ -2049,6 +2052,9 @@
             <name>Drivers</name>
             <file>
                 <name>$PROJ_DIR$\Drivers\Source\DRV_Leds.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\Drivers\Source\DRV_Motor.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\Drivers\Source\DRV_RTC.c</name>

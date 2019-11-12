@@ -6,6 +6,8 @@
 **************************************************/
 #include "Hardware.h"
 
+
+
 #if !defined(I_SUPPORT_DRV_UART)
 
 #include "ior5f100le.h"
@@ -120,14 +122,11 @@ void main( void )
   //CTRL_Button_Init();
   DRV_UART_Init();
   DRV_RTC_Init();
-  LCD_init_4_bits();
-
-  __enable_interrupt();
-  
-
+  //LCD_init_4_bits();
+  __enable_interrupt(); // habilita as interrupções do RL78
   while (1)
   {  
-    CTRL_Pet_Access_Tasks();
+    //CTRL_Pet_Access_Tasks();
     
   }
 }

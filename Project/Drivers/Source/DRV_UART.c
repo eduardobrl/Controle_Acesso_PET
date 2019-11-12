@@ -71,7 +71,7 @@ struct {
 } drvUART_obj;
 
 
-void drv_UART_0_Init(void);
+void drv_UART_1_Init(void);
 void drv_UART_2_Init(void);
 
 
@@ -93,10 +93,11 @@ void DRV_UART_Init(void)
   drvUART_obj.data_count        = 0x00;
   drvUART_obj.buffer_idx        = 0x00;
   
-  drv_UART_0_Init();
   
-#if defined(NOT_DEBUGGING)
   drv_UART_2_Init();
+  drv_UART_1_Init();
+#if defined(NOT_DEBUGGING)
+  
 #endif
 }
 
@@ -130,14 +131,27 @@ void DRV_UART_Checksum_Verify(void){
 /****************************************************************************
                              FUNÇÕES LOCAIS
 *****************************************************************************/
-
-
-
+#if 0
 
 void drv_UART_0_Init(void){
-   PM1_bit.no1 = 1; // P11/RXD0 como entrada
-   PIM1_bit.no1 = 1;
+
+   SS0 = 0;
+   PMC0_bit.no3 = 0;
+   P0_bit.no3  =  1;
+   PM0_bit.no3 = 1; // P03/RXD0 como entrada
    
+   P1_bit.no6  =  1;
+   PM1_bit.no6 = 1; // P03/RXD0 como entrada
+   
+   
+    ST0 |= 0x08;    /* disable UART1 receive operation */
+    STMK1 = 1U;    /* disable INTST1 interrupt */
+    STIF1 = 0U;    /* clear INTST1 interrupt flag */
+    SRMK1 = 1U;    /* disable INTSR1 interrupt */
+    SRIF1 = 0U;    /* clear INTSR1 interrupt flag */
+    SREMK1 = 1U;   /* disable INTSRE1 interrupt */
+    SREIF1 = 0U;   /* clear INTSRE1 interrupt flag */
+  
   /*Peripheral Initialization*/
   /*
   * Setting the PER0 register
@@ -157,47 +171,90 @@ void drv_UART_0_Init(void){
   * Set an operation mode, etc.
   */
   
-  SMR01 = bSAU_STS | SAU_MD_UART;
+  SMR03 = bSAU_STS | SAU_MD_UART;
   
    /*
   * Setting the SCRmn register
   * Set a communication format.
   */
   
-  SCR01 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
+  SCR03 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
   
    /*
   * Setting the SDRmn register
   * Set a transfer baud rate
   */
-  SDR01 = __9600BPS;
+  SDR03 = __9600BPS;
    /*
   * Setting port
   * Enable data input of the target channel
   * by setting a port register and a port
   * mode register.
   */
-  
+   PMC0_bit.no3 = 0;
+   P0_bit.no3  =  1;
+   PM0_bit.no3 = 1; // P03/RXD0 como entrada
+   
+   P1_bit.no6  =  1;
+   PM1_bit.no6 = 1; // P03/RXD0 como entrada
    /*
   * Writing to the SSm register
   * 
   */
   
-  NFEN0 = SNFEN00;
- // Dispara os canais 1 da SA0
-  SS0 = SAU_CH1;
-  SRMK0 = 0;
+  NFEN0 = SNFEN10;
+ // Dispara os canais 3 da SA0
+  __no_operation();
+  __no_operation();
+  __no_operation();
+  __no_operation();
+  
+  SS0 = SAU_CH3;
+  
+  SRIF1 = 0U;
+  SRMK1 = 0;
+}
+#endif
+
+void drv_UART_1_Init(void)
+{
+ PM0_bit.no2 = 0; // P13/TXD2 como saída
+ P0_bit.no2 = 1; // coloca TXD2 em 1 (importante!!!)
+ PM0_bit.no3 = 1; // P14/RXD2 como entrada
+ PMC0_bit.no3 = 0;
+ 
+ SAU0EN = 1; // ativa a SAU1
+ // Clock CK0 da SAU1 = 32MHz / 32 = 1MHz
+ SPS0 = SAU_CK0_DIV32;
+ // Configura o canal 0 da SAU0 (transmissão da UART2)
+ SMR02 = SAU_MD_UART | SAU_INT_BUFFER;
+ SCR02 = SAU_COMM_TX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
+ SDR02 = __9600BPS; // seta o baud rate do transmissor
+ // Configura o canal 1 da SAU1 (recepção da UART2)
+ SMR03 = bSAU_STS | SAU_MD_UART;
+ SCR03 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
+ SDR03 = __9600BPS; // seta o baud rate do receptor
+ SOE0 = SAU_CH2; // habilita a saída da UART2
+ SO0 = SAU_CH2; // seta a saída TXD2
+ NFEN0 = SNFEN10; // ativa o filtro digital da entrada RXD2
+ // Dispara os canais 0 e 1 da SAU1
+ SS0 = SAU_CH2 | SAU_CH3;
+ SRMK1 = 0; // habilita a interrupção de recepção da UART
+
 }
 
 
 void drv_UART_2_Init(void)
 {
+
+ 
  PM1_bit.no3 = 0; // P13/TXD2 como saída
  P1_bit.no3 = 1; // coloca TXD2 em 1 (importante!!!)
  PM1_bit.no4 = 1; // P14/RXD2 como entrada
  PM7_bit.no7 = 0; // P77 como saída (led)
  LED = 1; // desliga o led 
  
+ SRIF2 = 0;
  SAU1EN = 1; // ativa a SAU1
  // Clock CK0 da SAU1 = 32MHz / 32 = 1MHz
  SPS1 = SAU_CK0_DIV32;
@@ -222,14 +279,16 @@ void drv_UART_2_Init(void)
 /****************************************************************************
                              TRATAMENTO DE INTERRUPÇÕES
 *****************************************************************************/
-
-#pragma vector = INTSR0_vect // escreve função de interrupção no vetor do IT
-__interrupt  void DRV_UART_RX_IT(){
+#if 0
+#pragma vector = INTSR1_vect // escreve função de interrupção no vetor do IT
+__interrupt  void DRV_UART_RX_IT(void)
+{
   
- unsigned char temp;
- temp = RXD0; // lê o caractere recebido
+ volatile unsigned char temp;
+ temp = RXD1; // lê o caractere recebido
  TXD2 = temp; // envia o caractere (seguinte)
-  
+ //LCD_write_string("re");
+#if 0
   switch(drvUART_obj.status){
        
   
@@ -285,8 +344,25 @@ __interrupt  void DRV_UART_RX_IT(){
       break;
   }
   
-  SRIF0 = 0;
+  SRIF1 = 0;
+#endif 
 }
+#endif
+
+#pragma vector = INTSR1_vect
+__interrupt void trata_rx_UART1(void)
+{
+ unsigned char temp;
+ temp = RXD1; // lê o caractere recebido
+ TXD1 = temp+1; // envia o caractere (seguinte)
+ if (temp=='a') LED = 0; // se recebeu "a", liga o led
+ if (temp=='b') LED = 1; // se recebeu "b", desliga o led
+}
+#pragma vector = INTST1_vect
+__interrupt void trata_tx_UART1(void)
+{
+}
+
 
 
 #pragma vector = INTSR2_vect
