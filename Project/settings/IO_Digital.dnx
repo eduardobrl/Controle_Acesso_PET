@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>3818346902</Checksum>
+        <Checksum>409422036</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -204,8 +204,7 @@
     </DataSample>
     <Breakpoints>
         <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.37.1" 0 0 0 0 "" 0 ""</Bp0>
-        <Bp1>_ "STD_CODE" "{$PROJ_DIR$\Drivers\Source\DRV_UART.c}.356.2" 1 0 0 0 "" 0 ""</Bp1>
-        <Count>2</Count>
+        <Count>1</Count>
     </Breakpoints>
     <Monitor_Execution>
         <Leave_target_running>0</Leave_target_running>

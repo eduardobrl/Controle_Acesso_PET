@@ -94,9 +94,9 @@
   void LCD_write_string (char *ptr);
   void LCD_write_word(uint16_t number);
   char lcd_Number_2_ASCII(uint8_t number );
+  uint8_t lcd_ASCII_2_Number(char nb1, char nb2);
   
-  
-#define ASCII_TABLE_ELEMENTS    10
+#define ASCII_TABLE_ELEMENTS    16
 
 typedef struct{ 
   

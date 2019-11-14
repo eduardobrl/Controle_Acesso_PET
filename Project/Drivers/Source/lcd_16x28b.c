@@ -17,8 +17,13 @@
   {6, '6'},
   {7, '7'},
   {8, '8'},
-  {9, '9'}
-
+  {9, '9'},
+  {0xA, 'A'},
+  {0xB, 'B'},
+  {0xC, 'C'},
+  {0xD, 'D'},
+  {0xE, 'E'},
+  {0xF, 'F'}
 };
 
 //**************************************************************************
@@ -198,6 +203,29 @@ void LCD_write_string (char *ptr)
 
 
 
+uint8_t lcd_ASCII_2_Number(char nb1, char nb2){
+  
+  uint8_t temp =0, i;
+  
+  for(i = 0; i < ASCII_TABLE_ELEMENTS ; i++){
+    
+    if(ASCII_table[i].asc_char == nb1 ){
+      
+      temp |= ASCII_table[i].dec_number << 4;
+      
+    }
+       
+    if(ASCII_table[i].asc_char == nb2 ){
+      
+      temp |= ASCII_table[i].dec_number;
+      
+    }
+    
+  }
+  
+ 
+  return temp;
+}
 
 
 char lcd_Number_2_ASCII(uint8_t number ){

@@ -127,7 +127,7 @@ void main( void )
   while (1)
   {  
     //CTRL_Pet_Access_Tasks();
-    
+    DRV_UART_Taks();
   }
 }
 #endif

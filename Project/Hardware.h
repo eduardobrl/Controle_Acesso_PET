@@ -52,10 +52,11 @@
  ***********************************************/
 //RDM6300
 #define HEAD_BYTE                 0x02
-#define NUMBER_OF_DATA_BYTES      0x04
-#define NUMBER_OF_CHECKSUM_BYTES  0x02
-#define NUMBER_OF_FINISH_BYTES    0x01
+#define NUMBER_OF_DATA_BYTES      5u *2u
+#define NUMBER_OF_CHECKSUM_BYTES  2u
+#define NUMBER_OF_FINISH_BYTES    1u
 #define LAST_BITE                 0x03
+
 
 /************************************************
  *  SERVO MOTOR

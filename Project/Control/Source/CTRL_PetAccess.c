@@ -16,7 +16,8 @@
 #include "ior5f100le.h"
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
-
+#include "DRV_UART.h"
+   
 void ctrl_Pet_Access_Food_Reload(uint8_t * pFood, uint8_t pReload  );
 /************************************************
  *  Structs Globais
@@ -40,9 +41,14 @@ void CTRL_Pet_Access_Tasks(){
   
   int pet;
   uint64_t code;
+  uint8_t * pTags ;
+  static uint8_t index;
+  
+  pTags = DRV_UART_Get_Tags(DRV_UART_Get_Index());
+  
   
   for(pet=0; pet < NUM_OF_PETS; pet++){
-    if(Pets_Table[pet].RFID_Code == 1)
+    if(Pets_Table[pet].RFID_Code == 1)//pTags[index])
     {
       switch(Pets_Table[pet].State){
         
@@ -85,7 +91,7 @@ void CTRL_Pet_Access_Tasks(){
     }
   }
   
-
+  index++;
 }
 
 /************************************************

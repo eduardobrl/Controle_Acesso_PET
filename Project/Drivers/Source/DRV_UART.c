@@ -13,6 +13,7 @@
 #include "intrinsics.h"
 
 #include "DRV_UART.h"
+#include "lcd_16x28b.h"
 #include "myRL78.h"
 #include "Configurations.h"
 
@@ -32,18 +33,7 @@
 #define __9600BPS               51 << 9
 #define LED P7_bit.no7
 
-typedef union {
-  
-  struct{
-    uint8_t     nb1;
-    uint8_t     nb2;
-    uint8_t     nb3;
-    uint8_t     nb4;
-  };
-  
-  uint64_t buf;
-  
-} tag_64;
+typedef uint8_t tag_64[NUMBER_OF_DATA_BYTES];
 
 struct {
   
@@ -58,15 +48,17 @@ struct {
  struct{
       uint8_t head;
       uint8_t data[NUMBER_OF_DATA_BYTES];
-      uint8_t checksum;
+      uint8_t checksum[NUMBER_OF_CHECKSUM_BYTES];
       uint8_t last;
     };
   
  uint8_t data_count;
  
- tag_64  tag_buffer[UART_BUFFER_SIZE];
+ tag_64  tag_buffer[256];
  
  uint8_t buffer_idx;
+ 
+ 
  
 } drvUART_obj;
 
@@ -88,7 +80,6 @@ void DRV_UART_Init(void)
   /*Global structure initialization*/
   drvUART_obj.status            = IDLE;
   drvUART_obj.head              = 0x00;
-  drvUART_obj.checksum          = 0x00;
   drvUART_obj.last              = 0x00;
   drvUART_obj.data_count        = 0x00;
   drvUART_obj.buffer_idx        = 0x00;
@@ -101,121 +92,58 @@ void DRV_UART_Init(void)
 #endif
 }
 
-
-
-void DRV_UART_Checksum_Verify(void){
-
-  if(drvUART_obj.status == FINISH ){
-    int byte, checksum;
+void DRV_UART_Taks(void){
+  int i;
+  
+  if(drvUART_obj.status == READY){
     
-    for (byte = 0; byte < NUMBER_OF_DATA_BYTES; byte++){
-      checksum ^= drvUART_obj.data[byte];
+    if(DRV_UART_Checksum_Verify() && drvUART_obj.last == LAST_BITE){
+     drvUART_obj.status = IDLE; 
+     
+     for(i=0;i< NUMBER_OF_DATA_BYTES; i++)
+     
+     drvUART_obj.tag_buffer[drvUART_obj.buffer_idx][i] = drvUART_obj.data[i];
+     drvUART_obj.buffer_idx++;
+
+    }
+    drvUART_obj.status = IDLE;
+  }
+  
+}
+
+
+
+int DRV_UART_Checksum_Verify(void){
+    int byte, checksum = 0;
+    
+    for (byte = 0; byte < NUMBER_OF_DATA_BYTES;byte= byte + 2){
+     checksum ^= lcd_ASCII_2_Number(drvUART_obj.data[byte], drvUART_obj.data[byte+1]);
+      
     }
     
-    if(checksum != drvUART_obj.checksum){
-     //error_drop_frame 
-      drvUART_obj.status = IDLE;
+    if(checksum != lcd_ASCII_2_Number(drvUART_obj.checksum[0], drvUART_obj.checksum[1])){
+      return 0;
     }
     
     else{
-      //if checksum is verified then save the tag
-      //drvUART_obj.tag_buffer[drvUART_obj.buffer_idx].buf = drvUART_obj.data;
-      drvUART_obj.status = IDLE;
+      return 1;
     }
-    
-  }
-  
+}
+
+int DRV_UART_Get_Index()
+{
+  return drvUART_obj.buffer_idx;
+}
+
+uint8_t * DRV_UART_Get_Tags(uint8_t index)
+{
+  return  drvUART_obj.tag_buffer[index];
 }
 
 
 /****************************************************************************
                              FUNÇÕES LOCAIS
 *****************************************************************************/
-#if 0
-
-void drv_UART_0_Init(void){
-
-   SS0 = 0;
-   PMC0_bit.no3 = 0;
-   P0_bit.no3  =  1;
-   PM0_bit.no3 = 1; // P03/RXD0 como entrada
-   
-   P1_bit.no6  =  1;
-   PM1_bit.no6 = 1; // P03/RXD0 como entrada
-   
-   
-    ST0 |= 0x08;    /* disable UART1 receive operation */
-    STMK1 = 1U;    /* disable INTST1 interrupt */
-    STIF1 = 0U;    /* clear INTST1 interrupt flag */
-    SRMK1 = 1U;    /* disable INTSR1 interrupt */
-    SRIF1 = 0U;    /* clear INTSR1 interrupt flag */
-    SREMK1 = 1U;   /* disable INTSRE1 interrupt */
-    SREIF1 = 0U;   /* clear INTSRE1 interrupt flag */
-  
-  /*Peripheral Initialization*/
-  /*
-  * Setting the PER0 register
-  * Release the serial array unit from the
-  * reset status and start clock supply.
-  */
-  SAU0EN = 1;
-  /*
-  * Setting the SPSm register
-  * Set the operation clock.
-  */
-  
-  SPS0 = SAU_CK0_DIV32;//SAU_CK0_DIV16;
-  
-   /*
-  * Setting the SMRmn and SMRmr registers
-  * Set an operation mode, etc.
-  */
-  
-  SMR03 = bSAU_STS | SAU_MD_UART;
-  
-   /*
-  * Setting the SCRmn register
-  * Set a communication format.
-  */
-  
-  SCR03 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
-  
-   /*
-  * Setting the SDRmn register
-  * Set a transfer baud rate
-  */
-  SDR03 = __9600BPS;
-   /*
-  * Setting port
-  * Enable data input of the target channel
-  * by setting a port register and a port
-  * mode register.
-  */
-   PMC0_bit.no3 = 0;
-   P0_bit.no3  =  1;
-   PM0_bit.no3 = 1; // P03/RXD0 como entrada
-   
-   P1_bit.no6  =  1;
-   PM1_bit.no6 = 1; // P03/RXD0 como entrada
-   /*
-  * Writing to the SSm register
-  * 
-  */
-  
-  NFEN0 = SNFEN10;
- // Dispara os canais 3 da SA0
-  __no_operation();
-  __no_operation();
-  __no_operation();
-  __no_operation();
-  
-  SS0 = SAU_CH3;
-  
-  SRIF1 = 0U;
-  SRMK1 = 0;
-}
-#endif
-
 void drv_UART_1_Init(void)
 {
  PM0_bit.no2 = 0; // P13/TXD2 como saída
@@ -279,84 +207,69 @@ void drv_UART_2_Init(void)
 /****************************************************************************
                              TRATAMENTO DE INTERRUPÇÕES
 *****************************************************************************/
-#if 0
-#pragma vector = INTSR1_vect // escreve função de interrupção no vetor do IT
-__interrupt  void DRV_UART_RX_IT(void)
+#pragma vector = INTSR1_vect
+__interrupt void trata_rx_UART1(void)
 {
-  
- volatile unsigned char temp;
- temp = RXD1; // lê o caractere recebido
- TXD2 = temp; // envia o caractere (seguinte)
- //LCD_write_string("re");
-#if 0
+ unsigned int temp;
+    temp = RXD1; // lê o caractere recebido
+    TXD2 = temp+1; // envia o caractere (seguinte)
+    
   switch(drvUART_obj.status){
        
-  
-  case IDLE:   
-    drvUART_obj.head = RXD0;
+
+  case IDLE:
+
+    drvUART_obj.head = temp;
     if(drvUART_obj.head == HEAD_BYTE) 
     {
       drvUART_obj.status = DATA;
-      drvUART_obj.data_count = NUMBER_OF_DATA_BYTES;
+      drvUART_obj.data_count = 0;
     }
     break;
     
   case DATA:
-    if(drvUART_obj.data_count < NUMBER_OF_DATA_BYTES)
-    {
-      drvUART_obj.data[drvUART_obj.data_count] = RXD0;
+    
+      drvUART_obj.data[drvUART_obj.data_count] = temp;
       drvUART_obj.data_count++;
-    }
-    else{
+      
+    if(drvUART_obj.data_count == NUMBER_OF_DATA_BYTES)
+    {
       drvUART_obj.status = CHECKSUM;
       drvUART_obj.data_count = 0;
-    }  
+    }
+     
     break;
     
   case CHECKSUM:
-    if(drvUART_obj.data_count < NUMBER_OF_CHECKSUM_BYTES)
-    {
-      drvUART_obj.checksum= RXD0;
+      drvUART_obj.checksum[drvUART_obj.data_count]= temp;
       drvUART_obj.data_count++;
-    }
-    else{
+    if(drvUART_obj.data_count == NUMBER_OF_CHECKSUM_BYTES)
+    {
       drvUART_obj.status = FINISH;
       drvUART_obj.data_count = 0;
-    }  
+    }
     break;
     
   
   case FINISH:
-    if(drvUART_obj.data_count < NUMBER_OF_FINISH_BYTES)
+    drvUART_obj.last = temp;
+    drvUART_obj.data_count++; 
+    
+    if(drvUART_obj.data_count == NUMBER_OF_FINISH_BYTES)
     {
-      drvUART_obj.last = RXD0;
-      drvUART_obj.data_count++;
-      drvUART_obj.status = READY;
+      drvUART_obj.status = READY; 
     }
-    else{
-      //ERROR DROP FRAME
-      drvUART_obj.status = IDLE;
-    }  
     break;
       
+  case READY:  
+    break;
+    
     default:
       drvUART_obj.status = IDLE;      
       break;
   }
   
-  SRIF1 = 0;
-#endif 
-}
-#endif
-
-#pragma vector = INTSR1_vect
-__interrupt void trata_rx_UART1(void)
-{
- unsigned char temp;
- temp = RXD1; // lê o caractere recebido
- TXD1 = temp+1; // envia o caractere (seguinte)
- if (temp=='a') LED = 0; // se recebeu "a", liga o led
- if (temp=='b') LED = 1; // se recebeu "b", desliga o led
+ 
 }
 #pragma vector = INTST1_vect
 __interrupt void trata_tx_UART1(void)
@@ -378,10 +291,6 @@ __interrupt void trata_rx_UART2(void)
 __interrupt void trata_tx_UART2(void)
 {
 }
-
-
-
-
 
 
 #endif
