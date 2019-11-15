@@ -54,9 +54,11 @@ struct {
   
  uint8_t data_count;
  
- tag_64  tag_buffer[256];
+ tag_64  tag_buffer[UART_BUFFER_SIZE];
  
  uint8_t buffer_idx;
+ 
+ uint8_t last_read_idx;
  
  
  
@@ -83,7 +85,7 @@ void DRV_UART_Init(void)
   drvUART_obj.last              = 0x00;
   drvUART_obj.data_count        = 0x00;
   drvUART_obj.buffer_idx        = 0x00;
-  
+  drvUART_obj.last_read_idx     = 0x00;
   
   drv_UART_2_Init();
   drv_UART_1_Init();
@@ -130,15 +132,20 @@ int DRV_UART_Checksum_Verify(void){
     }
 }
 
-int DRV_UART_Get_Index()
+
+uint8_t * DRV_UART_Get_Tag()
 {
-  return drvUART_obj.buffer_idx;
+  
+  uint8_t * tag = drvUART_obj.tag_buffer[drvUART_obj.last_read_idx];
+  
+  if( drvUART_obj.last_read_idx++ > drvUART_obj.buffer_idx)
+    drvUART_obj.last_read_idx = drvUART_obj.buffer_idx;
+  
+  
+  return tag ;
 }
 
-uint8_t * DRV_UART_Get_Tags(uint8_t index)
-{
-  return  drvUART_obj.tag_buffer[index];
-}
+
 
 
 /****************************************************************************
@@ -163,7 +170,7 @@ void drv_UART_1_Init(void)
  SCR03 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
  SDR03 = __9600BPS; // seta o baud rate do receptor
  SOE0 = SAU_CH2; // habilita a saída da UART2
- SO0 = SAU_CH2; // seta a saída TXD2
+ //SO0 = SAU_CH2; // seta a saída TXD2
  NFEN0 = SNFEN10; // ativa o filtro digital da entrada RXD2
  // Dispara os canais 0 e 1 da SAU1
  SS0 = SAU_CH2 | SAU_CH3;
@@ -174,13 +181,9 @@ void drv_UART_1_Init(void)
 
 void drv_UART_2_Init(void)
 {
-
- 
  PM1_bit.no3 = 0; // P13/TXD2 como saída
  P1_bit.no3 = 1; // coloca TXD2 em 1 (importante!!!)
  PM1_bit.no4 = 1; // P14/RXD2 como entrada
- PM7_bit.no7 = 0; // P77 como saída (led)
- LED = 1; // desliga o led 
  
  SRIF2 = 0;
  SAU1EN = 1; // ativa a SAU1
@@ -195,7 +198,7 @@ void drv_UART_2_Init(void)
  SCR11 = SAU_COMM_RX | SAU_NO_PARITY | SAU_LSB_FIRST | SAU_ONE_STOP | SAU_8BITS;
  SDR11 = __9600BPS; // seta o baud rate do receptor
  SOE1 = SAU_CH0; // habilita a saída da UART2
- SO1 = SAU_CH0; // seta a saída TXD2
+ //SO1 = SAU_CH0; // seta a saída TXD2
  NFEN0 = SNFEN20; // ativa o filtro digital da entrada RXD2
  // Dispara os canais 0 e 1 da SAU1
  SS1 = SAU_CH1 | SAU_CH0;
@@ -212,7 +215,6 @@ __interrupt void trata_rx_UART1(void)
 {
  unsigned int temp;
     temp = RXD1; // lê o caractere recebido
-    TXD2 = temp+1; // envia o caractere (seguinte)
     
   switch(drvUART_obj.status){
        
@@ -284,8 +286,8 @@ __interrupt void trata_rx_UART2(void)
  unsigned char temp;
  temp = RXD2; // lê o caractere recebido
  TXD2 = temp+1; // envia o caractere (seguinte)
- if (temp=='a') LED = 0; // se recebeu "a", liga o led
- if (temp=='b') LED = 1; // se recebeu "b", desliga o led
+ //if (temp=='a') LED = 0; // se recebeu "a", liga o led
+ //if (temp=='b') LED = 1; // se recebeu "b", desliga o led
 }
 #pragma vector = INTST2_vect
 __interrupt void trata_tx_UART2(void)

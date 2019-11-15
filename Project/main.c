@@ -120,13 +120,15 @@ void main( void )
   //P1 = P1_PORT;
   
   //CTRL_Button_Init();
+  LCD_init_4_bits();
   DRV_UART_Init();
+  
   DRV_RTC_Init();
-  //LCD_init_4_bits();
+  PMC0 = 0;
   __enable_interrupt(); // habilita as interrupções do RL78
   while (1)
   {  
-    //CTRL_Pet_Access_Tasks();
+    CTRL_Pet_Access_Tasks();
     DRV_UART_Taks();
   }
 }

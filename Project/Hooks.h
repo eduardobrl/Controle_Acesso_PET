@@ -28,18 +28,18 @@
               
 #include "lcd_16x28b.h"
                                           
-#define HOOK_ACESSO_BLOQUEADO(petTable)                 DRV_Speaker_Turn_Off()                                   
-#define HOOK_LIBERAR_ACESSO(petTable)                   DRV_Speaker_Turn_Off()
-#define HOOK_ACESSO_LIBERADO(petTable)                  DRV_Speaker_Turn_Off()
-#define HOOK_INICIA_LIBERACAO()                         DRV_Speaker_Turn_Off()
-#define HOOK_FINALIZA_LIBERACAO()                         DRV_Speaker_Turn_Off()              
+#define HOOK_ACESSO_BLOQUEADO(petTable)                 0                                
+#define HOOK_LIBERAR_ACESSO(petTable)                   0
+#define HOOK_ACESSO_LIBERADO(petTable)                  0
+#define HOOK_INICIA_LIBERACAO()                         0
+#define HOOK_FINALIZA_LIBERACAO()                       0              
 
 /*****************************************************************************
                           DRV_RTC.c
 *****************************************************************************/
 #include "CTRL_PetAccess.h"
                                           
-#define HOOK_PET_ACCESS_TIME_EVENT()                    CTRL_PetAccess_Time_Event();
+#define HOOK_DRV_RTC_1_SEC_EVENT()                    CTRL_PetAccess_Time_Event();
 
 
 #endif

@@ -10,6 +10,7 @@
 #include "ior5f100le.h"
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
+#include "Hooks.h"
 #include "myRL78.h"
 /****************************************************************************
                              MACROS LOCAIS
@@ -226,14 +227,18 @@ void DRV_RTC_Rem_Sec(RTC_TIME * pTime, WORD secs){
   min = secs / 60;
   secs %= 60;
    
-  if(pTime->sec > secs){
+  if(pTime->sec >= secs){
     pTime->sec -= secs;
   }
   
   else{
     temp = pTime->sec;
     secs = secs - temp;
-    pTime->sec = 60 - secs ;  
+    
+    if(pTime->min != 0)
+      pTime->sec = 60 - secs ;  
+    else pTime->sec = 0;
+    
     
     DRV_RTC_Rem_Min(pTime,1); //removes 1 minute
   }
@@ -253,14 +258,14 @@ void DRV_RTC_Rem_Min(RTC_TIME * pTime, WORD mins){
   
   mins %= 60;
   
-  if(pTime->min > mins){
+  if(pTime->min >= mins){
     pTime->min -= mins; 
   }
   
   else{
     temp = pTime->min;
     mins = mins - temp;
-    pTime->min = 60 - mins ;
+    pTime->min = 0;
   }
 
 }
@@ -281,7 +286,9 @@ WORD DRV_RTC_Is_Ready(RTC_TIME * pTime){
 }
 
 #pragma vector = INTRTC_vect // escreve função de interrupção no vetor do IT
-__interrupt void DRV_RTC_IT_Handler(void){
+__interrupt void IT_Handler(void){
+  
+  HOOK_DRV_RTC_1_SEC_EVENT();
   
 
 }
