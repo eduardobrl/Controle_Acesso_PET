@@ -2,41 +2,49 @@
 #define __DRV_LEDS_C__
 
 #include "Hardware.h"
-#include "DRV_leds.h"
+#include "DRV_Leds.h"
 
-void Liga_Led(LED_TYPE led){
+void DRV_LEDS_Init(){
+  _PORT_PIN_TO_MODE_REG(LED_RED_PORT, LED_RED_PIN)      = 1;
+  _PORT_PIN_TO_MODE_REG(LED_GREEN_PORT, LED_GREEN_PIN)      = 1;
+  _PORT_PIN_TO_MODE_REG(LED_BLUE_PORT, LED_BLUE_PIN)      = 1;
+  
+}
+
+
+void DRV_LEDS_Liga(LED_TYPE led){
   
   switch(led){
     
-    case(LED1):
-        CLR_PIN(LED1_OUT);
+    case(LED_RED):
+        CLR_PIN(LED_RED_OUT);
       break;  
       
-  case (LED2):
-        CLR_PIN(LED2_OUT);
+  case (LED_GREEN):
+        CLR_PIN(LED_GREEN_OUT);
       break;
       
-  case(LED3):
-        CLR_PIN(LED3_OUT);
+  case(LED_BLUE):
+        CLR_PIN(LED_BLUE_OUT);
       break;
   }
   
 }
 
-void Desliga_Led(LED_TYPE led){
+void DRV_LEDS_Desliga_Led(LED_TYPE led){
   
   switch(led){
     
-    case(LED1):
-        SET_PIN(LED1_OUT);
+    case(LED_RED):
+        SET_PIN(LED_RED_OUT);
       break;  
       
-  case (LED2):
-        SET_PIN(LED2_OUT);
+  case (LED_GREEN):
+        SET_PIN(LED_GREEN_OUT);
       break;
       
-  case(LED3):
-        SET_PIN(LED3_OUT);
+  case(LED_BLUE):
+        SET_PIN(LED_BLUE_OUT);
       break;
   }
   

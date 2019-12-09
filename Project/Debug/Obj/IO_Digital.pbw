@@ -22620,13 +22620,41 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2035@macro@PORT_OUTPUT_MODE",
+    "ID": "c:Hardware.h@1741@macro@pwrtwo",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "pwrtwo",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
+    },
+    "name": "pwrtwo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hardware.h@1799@macro@SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
+    },
+    "name": "SYSTEM_CLOCK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hardware.h@2131@macro@PORT_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "71",
+      "line": "73",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_OUTPUT_MODE",
@@ -22634,13 +22662,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2081@macro@PORT_INPUT_MODE",
+    "ID": "c:Hardware.h@2177@macro@PORT_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "72",
+      "line": "74",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_INPUT_MODE",
@@ -22648,13 +22676,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2143@macro@PORT_OFF",
+    "ID": "c:Hardware.h@2239@macro@PORT_OFF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_OFF",
     "location": {
       "column": "9",
-      "line": "75",
+      "line": "77",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_OFF",
@@ -22662,13 +22690,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2189@macro@PORT_ON",
+    "ID": "c:Hardware.h@2285@macro@PORT_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_ON",
     "location": {
       "column": "9",
-      "line": "76",
+      "line": "78",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_ON",
@@ -22676,13 +22704,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2250@macro@PORT_PULL_NO",
+    "ID": "c:Hardware.h@2346@macro@PORT_PULL_NO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_PULL_NO",
     "location": {
       "column": "9",
-      "line": "79",
+      "line": "81",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_PULL_NO",
@@ -22690,13 +22718,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2296@macro@PORT_PULL_UP",
+    "ID": "c:Hardware.h@2392@macro@PORT_PULL_UP",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_PULL_UP",
     "location": {
       "column": "9",
-      "line": "80",
+      "line": "82",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_PULL_UP",
@@ -22704,13 +22732,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2363@macro@PORT_NORMAL_INPUT",
+    "ID": "c:Hardware.h@2459@macro@PORT_NORMAL_INPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_NORMAL_INPUT",
     "location": {
       "column": "9",
-      "line": "83",
+      "line": "85",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_NORMAL_INPUT",
@@ -22718,13 +22746,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2409@macro@PORT_TTL_INPUT",
+    "ID": "c:Hardware.h@2505@macro@PORT_TTL_INPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_TTL_INPUT",
     "location": {
       "column": "9",
-      "line": "84",
+      "line": "86",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_TTL_INPUT",
@@ -22732,13 +22760,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2477@macro@PORT_NORMAL_OUTPUT",
+    "ID": "c:Hardware.h@2573@macro@PORT_NORMAL_OUTPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_NORMAL_OUTPUT",
     "location": {
       "column": "9",
-      "line": "87",
+      "line": "89",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_NORMAL_OUTPUT",
@@ -22746,13 +22774,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2524@macro@PORT_OPEN_DRAIN_OUTPUT",
+    "ID": "c:Hardware.h@2620@macro@PORT_OPEN_DRAIN_OUTPUT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_OPEN_DRAIN_OUTPUT",
     "location": {
       "column": "9",
-      "line": "88",
+      "line": "90",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_OPEN_DRAIN_OUTPUT",
@@ -22760,13 +22788,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2594@macro@PORT_DIGITAL",
+    "ID": "c:Hardware.h@2690@macro@PORT_DIGITAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_DIGITAL",
     "location": {
       "column": "9",
-      "line": "91",
+      "line": "93",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_DIGITAL",
@@ -22774,13 +22802,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2640@macro@PORT_ANALOG",
+    "ID": "c:Hardware.h@2736@macro@PORT_ANALOG",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "PORT_ANALOG",
     "location": {
       "column": "9",
-      "line": "92",
+      "line": "94",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "PORT_ANALOG",
@@ -22788,13 +22816,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2690@macro@RESERVED",
+    "ID": "c:Hardware.h@2786@macro@RESERVED",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RESERVED",
     "location": {
       "column": "9",
-      "line": "95",
+      "line": "97",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "RESERVED",
@@ -22802,13 +22830,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2851@macro@P00_MODE",
+    "ID": "c:Hardware.h@2947@macro@P00_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_MODE",
     "location": {
       "column": "9",
-      "line": "100",
+      "line": "102",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_MODE",
@@ -22816,13 +22844,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2904@macro@P00_PORT",
+    "ID": "c:Hardware.h@3000@macro@P00_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_PORT",
     "location": {
       "column": "9",
-      "line": "101",
+      "line": "103",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_PORT",
@@ -22830,13 +22858,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2949@macro@P00_PULL",
+    "ID": "c:Hardware.h@3045@macro@P00_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_PULL",
     "location": {
       "column": "9",
-      "line": "102",
+      "line": "104",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_PULL",
@@ -22844,13 +22872,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@2998@macro@P00_INPUT_MODE",
+    "ID": "c:Hardware.h@3094@macro@P00_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "103",
+      "line": "105",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_INPUT_MODE",
@@ -22858,13 +22886,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3043@macro@P00_OUTPUT_MODE",
+    "ID": "c:Hardware.h@3139@macro@P00_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "104",
+      "line": "106",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_OUTPUT_MODE",
@@ -22872,13 +22900,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3098@macro@P00_PORT_MODE",
+    "ID": "c:Hardware.h@3194@macro@P00_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P00_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "105",
+      "line": "107",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P00_PORT_MODE",
@@ -22886,13 +22914,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3149@macro@P01_MODE",
+    "ID": "c:Hardware.h@3245@macro@P01_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_MODE",
     "location": {
       "column": "9",
-      "line": "107",
+      "line": "109",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_MODE",
@@ -22900,13 +22928,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3202@macro@P01_PORT",
+    "ID": "c:Hardware.h@3298@macro@P01_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_PORT",
     "location": {
       "column": "9",
-      "line": "108",
+      "line": "110",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_PORT",
@@ -22914,13 +22942,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3247@macro@P01_PULL",
+    "ID": "c:Hardware.h@3343@macro@P01_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_PULL",
     "location": {
       "column": "9",
-      "line": "109",
+      "line": "111",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_PULL",
@@ -22928,13 +22956,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3296@macro@P01_INPUT_MODE",
+    "ID": "c:Hardware.h@3392@macro@P01_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "110",
+      "line": "112",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_INPUT_MODE",
@@ -22942,13 +22970,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3350@macro@P01_OUTPUT_MODE",
+    "ID": "c:Hardware.h@3446@macro@P01_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "111",
+      "line": "113",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_OUTPUT_MODE",
@@ -22956,13 +22984,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3395@macro@P01_PORT_MODE",
+    "ID": "c:Hardware.h@3491@macro@P01_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P01_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "112",
+      "line": "114",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P01_PORT_MODE",
@@ -22970,13 +22998,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3446@macro@P02_MODE",
+    "ID": "c:Hardware.h@3542@macro@P02_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_MODE",
     "location": {
       "column": "9",
-      "line": "114",
+      "line": "116",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_MODE",
@@ -22984,13 +23012,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3499@macro@P02_PORT",
+    "ID": "c:Hardware.h@3595@macro@P02_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_PORT",
     "location": {
       "column": "9",
-      "line": "115",
+      "line": "117",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_PORT",
@@ -22998,13 +23026,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3544@macro@P02_PULL",
+    "ID": "c:Hardware.h@3640@macro@P02_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_PULL",
     "location": {
       "column": "9",
-      "line": "116",
+      "line": "118",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_PULL",
@@ -23012,13 +23040,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3593@macro@P02_INPUT_MODE",
+    "ID": "c:Hardware.h@3689@macro@P02_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "117",
+      "line": "119",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_INPUT_MODE",
@@ -23026,13 +23054,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3638@macro@P02_OUTPUT_MODE",
+    "ID": "c:Hardware.h@3734@macro@P02_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "118",
+      "line": "120",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_OUTPUT_MODE",
@@ -23040,13 +23068,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3693@macro@P02_PORT_MODE",
+    "ID": "c:Hardware.h@3789@macro@P02_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P02_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "119",
+      "line": "121",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P02_PORT_MODE",
@@ -23054,13 +23082,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3744@macro@P03_MODE",
+    "ID": "c:Hardware.h@3840@macro@P03_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_MODE",
     "location": {
       "column": "9",
-      "line": "121",
+      "line": "123",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_MODE",
@@ -23068,13 +23096,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3797@macro@P03_PORT",
+    "ID": "c:Hardware.h@3893@macro@P03_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_PORT",
     "location": {
       "column": "9",
-      "line": "122",
+      "line": "124",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_PORT",
@@ -23082,13 +23110,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3842@macro@P03_PULL",
+    "ID": "c:Hardware.h@3938@macro@P03_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_PULL",
     "location": {
       "column": "9",
-      "line": "123",
+      "line": "125",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_PULL",
@@ -23096,13 +23124,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3891@macro@P03_INPUT_MODE",
+    "ID": "c:Hardware.h@3987@macro@P03_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "124",
+      "line": "126",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_INPUT_MODE",
@@ -23110,13 +23138,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@3945@macro@P03_OUTPUT_MODE",
+    "ID": "c:Hardware.h@4041@macro@P03_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "125",
+      "line": "127",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_OUTPUT_MODE",
@@ -23124,13 +23152,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4000@macro@P03_PORT_MODE",
+    "ID": "c:Hardware.h@4096@macro@P03_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P03_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "126",
+      "line": "128",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P03_PORT_MODE",
@@ -23138,13 +23166,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4051@macro@P04_MODE",
+    "ID": "c:Hardware.h@4147@macro@P04_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_MODE",
     "location": {
       "column": "9",
-      "line": "128",
+      "line": "130",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_MODE",
@@ -23152,13 +23180,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4104@macro@P04_PORT",
+    "ID": "c:Hardware.h@4200@macro@P04_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_PORT",
     "location": {
       "column": "9",
-      "line": "129",
+      "line": "131",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_PORT",
@@ -23166,13 +23194,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4149@macro@P04_PULL",
+    "ID": "c:Hardware.h@4245@macro@P04_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_PULL",
     "location": {
       "column": "9",
-      "line": "130",
+      "line": "132",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_PULL",
@@ -23180,13 +23208,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4198@macro@P04_INPUT_MODE",
+    "ID": "c:Hardware.h@4294@macro@P04_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "131",
+      "line": "133",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_INPUT_MODE",
@@ -23194,13 +23222,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4252@macro@P04_OUTPUT_MODE",
+    "ID": "c:Hardware.h@4348@macro@P04_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "132",
+      "line": "134",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_OUTPUT_MODE",
@@ -23208,13 +23236,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4307@macro@P04_PORT_MODE",
+    "ID": "c:Hardware.h@4403@macro@P04_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P04_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "133",
+      "line": "135",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P04_PORT_MODE",
@@ -23222,13 +23250,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4354@macro@P05_MODE",
+    "ID": "c:Hardware.h@4450@macro@P05_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_MODE",
     "location": {
       "column": "9",
-      "line": "135",
+      "line": "137",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_MODE",
@@ -23236,13 +23264,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4407@macro@P05_PORT",
+    "ID": "c:Hardware.h@4503@macro@P05_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_PORT",
     "location": {
       "column": "9",
-      "line": "136",
+      "line": "138",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_PORT",
@@ -23250,13 +23278,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4452@macro@P05_PULL",
+    "ID": "c:Hardware.h@4548@macro@P05_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_PULL",
     "location": {
       "column": "9",
-      "line": "137",
+      "line": "139",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_PULL",
@@ -23264,13 +23292,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4501@macro@P05_INPUT_MODE",
+    "ID": "c:Hardware.h@4597@macro@P05_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "138",
+      "line": "140",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_INPUT_MODE",
@@ -23278,13 +23306,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4546@macro@P05_OUTPUT_MODE",
+    "ID": "c:Hardware.h@4642@macro@P05_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "139",
+      "line": "141",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_OUTPUT_MODE",
@@ -23292,13 +23320,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4591@macro@P05_PORT_MODE",
+    "ID": "c:Hardware.h@4687@macro@P05_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P05_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "140",
+      "line": "142",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P05_PORT_MODE",
@@ -23306,13 +23334,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4638@macro@P06_MODE",
+    "ID": "c:Hardware.h@4734@macro@P06_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_MODE",
     "location": {
       "column": "9",
-      "line": "142",
+      "line": "144",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_MODE",
@@ -23320,13 +23348,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4691@macro@P06_PORT",
+    "ID": "c:Hardware.h@4787@macro@P06_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_PORT",
     "location": {
       "column": "9",
-      "line": "143",
+      "line": "145",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_PORT",
@@ -23334,13 +23362,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4736@macro@P06_PULL",
+    "ID": "c:Hardware.h@4832@macro@P06_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_PULL",
     "location": {
       "column": "9",
-      "line": "144",
+      "line": "146",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_PULL",
@@ -23348,13 +23376,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4785@macro@P06_INPUT_MODE",
+    "ID": "c:Hardware.h@4881@macro@P06_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "145",
+      "line": "147",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_INPUT_MODE",
@@ -23362,13 +23390,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4830@macro@P06_OUTPUT_MODE",
+    "ID": "c:Hardware.h@4926@macro@P06_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "146",
+      "line": "148",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_OUTPUT_MODE",
@@ -23376,13 +23404,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4875@macro@P06_PORT_MODE",
+    "ID": "c:Hardware.h@4971@macro@P06_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P06_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "147",
+      "line": "149",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P06_PORT_MODE",
@@ -23390,13 +23418,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@4924@macro@P0_MODE",
+    "ID": "c:Hardware.h@5020@macro@P0_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_MODE",
     "location": {
       "column": "9",
-      "line": "150",
+      "line": "152",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_MODE",
@@ -23404,13 +23432,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@5366@macro@P0_PORT",
+    "ID": "c:Hardware.h@5462@macro@P0_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_PORT",
     "location": {
       "column": "9",
-      "line": "159",
+      "line": "161",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_PORT",
@@ -23418,13 +23446,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@5808@macro@P0_PULL",
+    "ID": "c:Hardware.h@5904@macro@P0_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_PULL",
     "location": {
       "column": "9",
-      "line": "168",
+      "line": "170",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_PULL",
@@ -23432,13 +23460,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@6250@macro@P0_INPUT_MODE",
+    "ID": "c:Hardware.h@6346@macro@P0_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "177",
+      "line": "179",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_INPUT_MODE",
@@ -23446,13 +23474,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@6734@macro@P0_OUTPUT_MODE",
+    "ID": "c:Hardware.h@6830@macro@P0_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "186",
+      "line": "188",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_OUTPUT_MODE",
@@ -23460,13 +23488,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@7232@macro@P0_PORT_MODE",
+    "ID": "c:Hardware.h@7328@macro@P0_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P0_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "195",
+      "line": "197",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P0_PORT_MODE",
@@ -23474,13 +23502,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@7827@macro@P10_MODE",
+    "ID": "c:Hardware.h@7923@macro@P10_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_MODE",
     "location": {
       "column": "9",
-      "line": "207",
+      "line": "209",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_MODE",
@@ -23488,13 +23516,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@7880@macro@P10_PORT",
+    "ID": "c:Hardware.h@7976@macro@P10_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_PORT",
     "location": {
       "column": "9",
-      "line": "208",
+      "line": "210",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_PORT",
@@ -23502,13 +23530,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@7925@macro@P10_PULL",
+    "ID": "c:Hardware.h@8021@macro@P10_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_PULL",
     "location": {
       "column": "9",
-      "line": "209",
+      "line": "211",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_PULL",
@@ -23516,13 +23544,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@7974@macro@P10_INPUT_MODE",
+    "ID": "c:Hardware.h@8070@macro@P10_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "210",
+      "line": "212",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_INPUT_MODE",
@@ -23530,13 +23558,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8019@macro@P10_OUTPUT_MODE",
+    "ID": "c:Hardware.h@8115@macro@P10_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "211",
+      "line": "213",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_OUTPUT_MODE",
@@ -23544,13 +23572,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8074@macro@P10_PORT_MODE",
+    "ID": "c:Hardware.h@8170@macro@P10_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P10_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "212",
+      "line": "214",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P10_PORT_MODE",
@@ -23558,13 +23586,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8125@macro@P11_MODE",
+    "ID": "c:Hardware.h@8221@macro@P11_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_MODE",
     "location": {
       "column": "9",
-      "line": "214",
+      "line": "216",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_MODE",
@@ -23572,13 +23600,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8177@macro@P11_PORT",
+    "ID": "c:Hardware.h@8273@macro@P11_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_PORT",
     "location": {
       "column": "9",
-      "line": "215",
+      "line": "217",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_PORT",
@@ -23586,13 +23614,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8221@macro@P11_PULL",
+    "ID": "c:Hardware.h@8317@macro@P11_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_PULL",
     "location": {
       "column": "9",
-      "line": "216",
+      "line": "218",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_PULL",
@@ -23600,13 +23628,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8270@macro@P11_INPUT_MODE",
+    "ID": "c:Hardware.h@8366@macro@P11_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "217",
+      "line": "219",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_INPUT_MODE",
@@ -23614,13 +23642,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8324@macro@P11_OUTPUT_MODE",
+    "ID": "c:Hardware.h@8420@macro@P11_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "218",
+      "line": "220",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_OUTPUT_MODE",
@@ -23628,13 +23656,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8369@macro@P11_PORT_MODE",
+    "ID": "c:Hardware.h@8465@macro@P11_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P11_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "219",
+      "line": "221",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P11_PORT_MODE",
@@ -23642,13 +23670,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8420@macro@P12_MODE",
+    "ID": "c:Hardware.h@8516@macro@P12_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_MODE",
     "location": {
       "column": "9",
-      "line": "221",
+      "line": "223",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_MODE",
@@ -23656,13 +23684,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8473@macro@P12_PORT",
+    "ID": "c:Hardware.h@8569@macro@P12_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_PORT",
     "location": {
       "column": "9",
-      "line": "222",
+      "line": "224",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_PORT",
@@ -23670,13 +23698,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8518@macro@P12_PULL",
+    "ID": "c:Hardware.h@8614@macro@P12_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_PULL",
     "location": {
       "column": "9",
-      "line": "223",
+      "line": "225",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_PULL",
@@ -23684,13 +23712,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8567@macro@P12_INPUT_MODE",
+    "ID": "c:Hardware.h@8663@macro@P12_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "224",
+      "line": "226",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_INPUT_MODE",
@@ -23698,13 +23726,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8612@macro@P12_OUTPUT_MODE",
+    "ID": "c:Hardware.h@8708@macro@P12_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "225",
+      "line": "227",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_OUTPUT_MODE",
@@ -23712,13 +23740,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8667@macro@P12_PORT_MODE",
+    "ID": "c:Hardware.h@8763@macro@P12_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P12_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "226",
+      "line": "228",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P12_PORT_MODE",
@@ -23726,13 +23754,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8718@macro@P13_MODE",
+    "ID": "c:Hardware.h@8814@macro@P13_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_MODE",
     "location": {
       "column": "9",
-      "line": "228",
+      "line": "230",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_MODE",
@@ -23740,13 +23768,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8771@macro@P13_PORT",
+    "ID": "c:Hardware.h@8867@macro@P13_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_PORT",
     "location": {
       "column": "9",
-      "line": "229",
+      "line": "231",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_PORT",
@@ -23754,13 +23782,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8815@macro@P13_PULL",
+    "ID": "c:Hardware.h@8911@macro@P13_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_PULL",
     "location": {
       "column": "9",
-      "line": "230",
+      "line": "232",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_PULL",
@@ -23768,13 +23796,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8864@macro@P13_INPUT_MODE",
+    "ID": "c:Hardware.h@8960@macro@P13_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "231",
+      "line": "233",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_INPUT_MODE",
@@ -23782,13 +23810,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8918@macro@P13_OUTPUT_MODE",
+    "ID": "c:Hardware.h@9014@macro@P13_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "232",
+      "line": "234",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_OUTPUT_MODE",
@@ -23796,13 +23824,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@8973@macro@P13_PORT_MODE",
+    "ID": "c:Hardware.h@9069@macro@P13_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P13_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "233",
+      "line": "235",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P13_PORT_MODE",
@@ -23810,13 +23838,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9024@macro@P14_MODE",
+    "ID": "c:Hardware.h@9120@macro@P14_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_MODE",
     "location": {
       "column": "9",
-      "line": "235",
+      "line": "237",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_MODE",
@@ -23824,13 +23852,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9076@macro@P14_PORT",
+    "ID": "c:Hardware.h@9172@macro@P14_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_PORT",
     "location": {
       "column": "9",
-      "line": "236",
+      "line": "238",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_PORT",
@@ -23838,13 +23866,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9121@macro@P14_PULL",
+    "ID": "c:Hardware.h@9217@macro@P14_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_PULL",
     "location": {
       "column": "9",
-      "line": "237",
+      "line": "239",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_PULL",
@@ -23852,13 +23880,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9170@macro@P14_INPUT_MODE",
+    "ID": "c:Hardware.h@9266@macro@P14_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "238",
+      "line": "240",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_INPUT_MODE",
@@ -23866,13 +23894,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9224@macro@P14_OUTPUT_MODE",
+    "ID": "c:Hardware.h@9320@macro@P14_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "239",
+      "line": "241",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_OUTPUT_MODE",
@@ -23880,13 +23908,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9279@macro@P14_PORT_MODE",
+    "ID": "c:Hardware.h@9375@macro@P14_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P14_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "240",
+      "line": "242",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P14_PORT_MODE",
@@ -23894,13 +23922,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9326@macro@P15_MODE",
+    "ID": "c:Hardware.h@9422@macro@P15_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_MODE",
     "location": {
       "column": "9",
-      "line": "242",
+      "line": "244",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_MODE",
@@ -23908,13 +23936,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9379@macro@P15_PORT",
+    "ID": "c:Hardware.h@9475@macro@P15_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_PORT",
     "location": {
       "column": "9",
-      "line": "243",
+      "line": "245",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_PORT",
@@ -23922,13 +23950,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9424@macro@P15_PULL",
+    "ID": "c:Hardware.h@9520@macro@P15_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_PULL",
     "location": {
       "column": "9",
-      "line": "244",
+      "line": "246",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_PULL",
@@ -23936,13 +23964,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9473@macro@P15_INPUT_MODE",
+    "ID": "c:Hardware.h@9569@macro@P15_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "245",
+      "line": "247",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_INPUT_MODE",
@@ -23950,13 +23978,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9518@macro@P15_OUTPUT_MODE",
+    "ID": "c:Hardware.h@9614@macro@P15_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "246",
+      "line": "248",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_OUTPUT_MODE",
@@ -23964,13 +23992,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9563@macro@P15_PORT_MODE",
+    "ID": "c:Hardware.h@9659@macro@P15_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P15_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "247",
+      "line": "249",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P15_PORT_MODE",
@@ -23978,13 +24006,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9610@macro@P16_MODE",
+    "ID": "c:Hardware.h@9706@macro@P16_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_MODE",
     "location": {
       "column": "9",
-      "line": "249",
+      "line": "251",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_MODE",
@@ -23992,13 +24020,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9663@macro@P16_PORT",
+    "ID": "c:Hardware.h@9759@macro@P16_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_PORT",
     "location": {
       "column": "9",
-      "line": "250",
+      "line": "252",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_PORT",
@@ -24006,13 +24034,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9708@macro@P16_PULL",
+    "ID": "c:Hardware.h@9804@macro@P16_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_PULL",
     "location": {
       "column": "9",
-      "line": "251",
+      "line": "253",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_PULL",
@@ -24020,13 +24048,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9757@macro@P16_INPUT_MODE",
+    "ID": "c:Hardware.h@9853@macro@P16_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "252",
+      "line": "254",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_INPUT_MODE",
@@ -24034,13 +24062,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9802@macro@P16_OUTPUT_MODE",
+    "ID": "c:Hardware.h@9898@macro@P16_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "253",
+      "line": "255",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_OUTPUT_MODE",
@@ -24048,13 +24076,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9847@macro@P16_PORT_MODE",
+    "ID": "c:Hardware.h@9943@macro@P16_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P16_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "254",
+      "line": "256",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P16_PORT_MODE",
@@ -24062,13 +24090,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9894@macro@P17_MODE",
+    "ID": "c:Hardware.h@9990@macro@P17_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_MODE",
     "location": {
       "column": "9",
-      "line": "256",
+      "line": "258",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_MODE",
@@ -24076,13 +24104,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9947@macro@P17_PORT",
+    "ID": "c:Hardware.h@10043@macro@P17_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_PORT",
     "location": {
       "column": "9",
-      "line": "257",
+      "line": "259",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_PORT",
@@ -24090,13 +24118,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@9992@macro@P17_PULL",
+    "ID": "c:Hardware.h@10088@macro@P17_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_PULL",
     "location": {
       "column": "9",
-      "line": "258",
+      "line": "260",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_PULL",
@@ -24104,13 +24132,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@10041@macro@P17_INPUT_MODE",
+    "ID": "c:Hardware.h@10137@macro@P17_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "259",
+      "line": "261",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_INPUT_MODE",
@@ -24118,13 +24146,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@10095@macro@P17_OUTPUT_MODE",
+    "ID": "c:Hardware.h@10191@macro@P17_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "260",
+      "line": "262",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_OUTPUT_MODE",
@@ -24132,13 +24160,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@10150@macro@P17_PORT_MODE",
+    "ID": "c:Hardware.h@10246@macro@P17_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P17_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "261",
+      "line": "263",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P17_PORT_MODE",
@@ -24146,13 +24174,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@10201@macro@P1_MODE",
+    "ID": "c:Hardware.h@10297@macro@P1_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_MODE",
     "location": {
       "column": "9",
-      "line": "263",
+      "line": "265",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_MODE",
@@ -24160,13 +24188,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@10649@macro@P1_PORT",
+    "ID": "c:Hardware.h@10745@macro@P1_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_PORT",
     "location": {
       "column": "9",
-      "line": "272",
+      "line": "274",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_PORT",
@@ -24174,13 +24202,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@11097@macro@P1_PULL",
+    "ID": "c:Hardware.h@11193@macro@P1_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_PULL",
     "location": {
       "column": "9",
-      "line": "281",
+      "line": "283",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_PULL",
@@ -24188,13 +24216,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@11545@macro@P1_INPUT_MODE",
+    "ID": "c:Hardware.h@11641@macro@P1_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "290",
+      "line": "292",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_INPUT_MODE",
@@ -24202,13 +24230,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@12041@macro@P1_OUTPUT_MODE",
+    "ID": "c:Hardware.h@12137@macro@P1_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "299",
+      "line": "301",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_OUTPUT_MODE",
@@ -24216,13 +24244,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@12552@macro@P1_PORT_MODE",
+    "ID": "c:Hardware.h@12648@macro@P1_PORT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P1_PORT_MODE",
     "location": {
       "column": "9",
-      "line": "308",
+      "line": "310",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P1_PORT_MODE",
@@ -24230,13 +24258,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13158@macro@P20_MODE",
+    "ID": "c:Hardware.h@13254@macro@P20_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P20_MODE",
     "location": {
       "column": "9",
-      "line": "320",
+      "line": "322",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P20_MODE",
@@ -24244,13 +24272,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13211@macro@P20_PORT",
+    "ID": "c:Hardware.h@13307@macro@P20_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P20_PORT",
     "location": {
       "column": "9",
-      "line": "321",
+      "line": "323",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P20_PORT",
@@ -24258,13 +24286,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13258@macro@P21_MODE",
+    "ID": "c:Hardware.h@13354@macro@P21_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P21_MODE",
     "location": {
       "column": "9",
-      "line": "323",
+      "line": "325",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P21_MODE",
@@ -24272,13 +24300,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13311@macro@P21_PORT",
+    "ID": "c:Hardware.h@13407@macro@P21_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P21_PORT",
     "location": {
       "column": "9",
-      "line": "324",
+      "line": "326",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P21_PORT",
@@ -24286,13 +24314,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13358@macro@P22_MODE",
+    "ID": "c:Hardware.h@13454@macro@P22_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P22_MODE",
     "location": {
       "column": "9",
-      "line": "326",
+      "line": "328",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P22_MODE",
@@ -24300,13 +24328,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13411@macro@P22_PORT",
+    "ID": "c:Hardware.h@13507@macro@P22_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P22_PORT",
     "location": {
       "column": "9",
-      "line": "327",
+      "line": "329",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P22_PORT",
@@ -24314,13 +24342,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13458@macro@P23_MODE",
+    "ID": "c:Hardware.h@13554@macro@P23_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P23_MODE",
     "location": {
       "column": "9",
-      "line": "329",
+      "line": "331",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P23_MODE",
@@ -24328,13 +24356,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13511@macro@P23_PORT",
+    "ID": "c:Hardware.h@13607@macro@P23_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P23_PORT",
     "location": {
       "column": "9",
-      "line": "330",
+      "line": "332",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P23_PORT",
@@ -24342,13 +24370,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13558@macro@P24_MODE",
+    "ID": "c:Hardware.h@13654@macro@P24_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P24_MODE",
     "location": {
       "column": "9",
-      "line": "332",
+      "line": "334",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P24_MODE",
@@ -24356,13 +24384,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13611@macro@P24_PORT",
+    "ID": "c:Hardware.h@13707@macro@P24_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P24_PORT",
     "location": {
       "column": "9",
-      "line": "333",
+      "line": "335",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P24_PORT",
@@ -24370,13 +24398,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13658@macro@P25_MODE",
+    "ID": "c:Hardware.h@13754@macro@P25_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P25_MODE",
     "location": {
       "column": "9",
-      "line": "335",
+      "line": "337",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P25_MODE",
@@ -24384,13 +24412,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13711@macro@P25_PORT",
+    "ID": "c:Hardware.h@13807@macro@P25_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P25_PORT",
     "location": {
       "column": "9",
-      "line": "336",
+      "line": "338",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P25_PORT",
@@ -24398,13 +24426,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13758@macro@P26_MODE",
+    "ID": "c:Hardware.h@13854@macro@P26_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P26_MODE",
     "location": {
       "column": "9",
-      "line": "338",
+      "line": "340",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P26_MODE",
@@ -24412,13 +24440,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13811@macro@P26_PORT",
+    "ID": "c:Hardware.h@13907@macro@P26_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P26_PORT",
     "location": {
       "column": "9",
-      "line": "339",
+      "line": "341",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P26_PORT",
@@ -24426,13 +24454,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13858@macro@P27_MODE",
+    "ID": "c:Hardware.h@13954@macro@P27_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P27_MODE",
     "location": {
       "column": "9",
-      "line": "341",
+      "line": "343",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P27_MODE",
@@ -24440,13 +24468,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13911@macro@P27_PORT",
+    "ID": "c:Hardware.h@14007@macro@P27_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P27_PORT",
     "location": {
       "column": "9",
-      "line": "342",
+      "line": "344",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P27_PORT",
@@ -24454,13 +24482,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@13958@macro@P2_MODE",
+    "ID": "c:Hardware.h@14054@macro@P2_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P2_MODE",
     "location": {
       "column": "9",
-      "line": "344",
+      "line": "346",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P2_MODE",
@@ -24468,13 +24496,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@14406@macro@P2_PORT",
+    "ID": "c:Hardware.h@14502@macro@P2_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P2_PORT",
     "location": {
       "column": "9",
-      "line": "353",
+      "line": "355",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P2_PORT",
@@ -24482,13 +24510,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@14960@macro@P30_MODE",
+    "ID": "c:Hardware.h@15056@macro@P30_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P30_MODE",
     "location": {
       "column": "9",
-      "line": "365",
+      "line": "367",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P30_MODE",
@@ -24496,13 +24524,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15013@macro@P30_PORT",
+    "ID": "c:Hardware.h@15109@macro@P30_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P30_PORT",
     "location": {
       "column": "9",
-      "line": "366",
+      "line": "368",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P30_PORT",
@@ -24510,13 +24538,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15058@macro@P30_PULL",
+    "ID": "c:Hardware.h@15154@macro@P30_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P30_PULL",
     "location": {
       "column": "9",
-      "line": "367",
+      "line": "369",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P30_PULL",
@@ -24524,13 +24552,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15109@macro@P31_MODE",
+    "ID": "c:Hardware.h@15205@macro@P31_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P31_MODE",
     "location": {
       "column": "9",
-      "line": "369",
+      "line": "371",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P31_MODE",
@@ -24538,13 +24566,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15162@macro@P31_PORT",
+    "ID": "c:Hardware.h@15258@macro@P31_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P31_PORT",
     "location": {
       "column": "9",
-      "line": "370",
+      "line": "372",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P31_PORT",
@@ -24552,13 +24580,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15207@macro@P31_PULL",
+    "ID": "c:Hardware.h@15303@macro@P31_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P31_PULL",
     "location": {
       "column": "9",
-      "line": "371",
+      "line": "373",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P31_PULL",
@@ -24566,13 +24594,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15258@macro@P3_MODE",
+    "ID": "c:Hardware.h@15354@macro@P3_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P3_MODE",
     "location": {
       "column": "9",
-      "line": "373",
+      "line": "375",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P3_MODE",
@@ -24580,13 +24608,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15370@macro@P3_PORT",
+    "ID": "c:Hardware.h@15466@macro@P3_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P3_PORT",
     "location": {
       "column": "9",
-      "line": "376",
+      "line": "378",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P3_PORT",
@@ -24594,13 +24622,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15482@macro@P3_PULL",
+    "ID": "c:Hardware.h@15578@macro@P3_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P3_PULL",
     "location": {
       "column": "9",
-      "line": "379",
+      "line": "381",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P3_PULL",
@@ -24608,13 +24636,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15709@macro@P40_MODE",
+    "ID": "c:Hardware.h@15805@macro@P40_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_MODE",
     "location": {
       "column": "9",
-      "line": "386",
+      "line": "388",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_MODE",
@@ -24622,13 +24650,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15762@macro@P40_PORT",
+    "ID": "c:Hardware.h@15858@macro@P40_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_PORT",
     "location": {
       "column": "9",
-      "line": "387",
+      "line": "389",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_PORT",
@@ -24636,13 +24664,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15807@macro@P40_PULL",
+    "ID": "c:Hardware.h@15903@macro@P40_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_PULL",
     "location": {
       "column": "9",
-      "line": "388",
+      "line": "390",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_PULL",
@@ -24650,13 +24678,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15858@macro@P41_MODE",
+    "ID": "c:Hardware.h@15954@macro@P41_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_MODE",
     "location": {
       "column": "9",
-      "line": "390",
+      "line": "392",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_MODE",
@@ -24664,13 +24692,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15911@macro@P41_PORT",
+    "ID": "c:Hardware.h@16007@macro@P41_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_PORT",
     "location": {
       "column": "9",
-      "line": "391",
+      "line": "393",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_PORT",
@@ -24678,13 +24706,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@15956@macro@P41_PULL",
+    "ID": "c:Hardware.h@16052@macro@P41_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_PULL",
     "location": {
       "column": "9",
-      "line": "392",
+      "line": "394",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_PULL",
@@ -24692,13 +24720,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16007@macro@P42_MODE",
+    "ID": "c:Hardware.h@16103@macro@P42_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_MODE",
     "location": {
       "column": "9",
-      "line": "394",
+      "line": "396",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_MODE",
@@ -24706,13 +24734,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16060@macro@P42_PORT",
+    "ID": "c:Hardware.h@16156@macro@P42_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_PORT",
     "location": {
       "column": "9",
-      "line": "395",
+      "line": "397",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_PORT",
@@ -24720,13 +24748,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16105@macro@P42_PULL",
+    "ID": "c:Hardware.h@16201@macro@P42_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_PULL",
     "location": {
       "column": "9",
-      "line": "396",
+      "line": "398",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_PULL",
@@ -24734,13 +24762,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16156@macro@P43_MODE",
+    "ID": "c:Hardware.h@16252@macro@P43_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_MODE",
     "location": {
       "column": "9",
-      "line": "398",
+      "line": "400",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_MODE",
@@ -24748,13 +24776,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16209@macro@P43_PORT",
+    "ID": "c:Hardware.h@16305@macro@P43_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_PORT",
     "location": {
       "column": "9",
-      "line": "399",
+      "line": "401",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_PORT",
@@ -24762,13 +24790,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16254@macro@P43_PULL",
+    "ID": "c:Hardware.h@16350@macro@P43_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_PULL",
     "location": {
       "column": "9",
-      "line": "400",
+      "line": "402",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_PULL",
@@ -24776,13 +24804,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16305@macro@P4_MODE",
+    "ID": "c:Hardware.h@16401@macro@P4_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P4_MODE",
     "location": {
       "column": "9",
-      "line": "402",
+      "line": "404",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P4_MODE",
@@ -24790,13 +24818,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16529@macro@P4_PORT",
+    "ID": "c:Hardware.h@16625@macro@P4_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P4_PORT",
     "location": {
       "column": "9",
-      "line": "407",
+      "line": "409",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P4_PORT",
@@ -24804,13 +24832,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@16753@macro@P4_PULL",
+    "ID": "c:Hardware.h@16849@macro@P4_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P4_PULL",
     "location": {
       "column": "9",
-      "line": "412",
+      "line": "414",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P4_PULL",
@@ -24818,13 +24846,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17088@macro@P50_MODE",
+    "ID": "c:Hardware.h@17184@macro@P50_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P50_MODE",
     "location": {
       "column": "9",
-      "line": "419",
+      "line": "421",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P50_MODE",
@@ -24832,13 +24860,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17141@macro@P50_PORT",
+    "ID": "c:Hardware.h@17237@macro@P50_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P50_PORT",
     "location": {
       "column": "9",
-      "line": "420",
+      "line": "422",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P50_PORT",
@@ -24846,13 +24874,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17186@macro@P50_PULL",
+    "ID": "c:Hardware.h@17282@macro@P50_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P50_PULL",
     "location": {
       "column": "9",
-      "line": "421",
+      "line": "423",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P50_PULL",
@@ -24860,13 +24888,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17235@macro@P50_OUTPUT_MODE",
+    "ID": "c:Hardware.h@17331@macro@P50_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P50_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "422",
+      "line": "424",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P50_OUTPUT_MODE",
@@ -24874,13 +24902,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17294@macro@P51_MODE",
+    "ID": "c:Hardware.h@17390@macro@P51_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P51_MODE",
     "location": {
       "column": "9",
-      "line": "425",
+      "line": "427",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P51_MODE",
@@ -24888,13 +24916,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17347@macro@P51_PORT",
+    "ID": "c:Hardware.h@17443@macro@P51_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P51_PORT",
     "location": {
       "column": "9",
-      "line": "426",
+      "line": "428",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P51_PORT",
@@ -24902,13 +24930,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17392@macro@P51_PULL",
+    "ID": "c:Hardware.h@17488@macro@P51_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P51_PULL",
     "location": {
       "column": "9",
-      "line": "427",
+      "line": "429",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P51_PULL",
@@ -24916,13 +24944,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17443@macro@P52_MODE",
+    "ID": "c:Hardware.h@17539@macro@P52_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P52_MODE",
     "location": {
       "column": "9",
-      "line": "429",
+      "line": "431",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P52_MODE",
@@ -24930,13 +24958,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17496@macro@P52_PORT",
+    "ID": "c:Hardware.h@17592@macro@P52_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P52_PORT",
     "location": {
       "column": "9",
-      "line": "430",
+      "line": "432",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P52_PORT",
@@ -24944,13 +24972,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17541@macro@P52_PULL",
+    "ID": "c:Hardware.h@17637@macro@P52_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P52_PULL",
     "location": {
       "column": "9",
-      "line": "431",
+      "line": "433",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P52_PULL",
@@ -24958,13 +24986,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17592@macro@P53_MODE",
+    "ID": "c:Hardware.h@17688@macro@P53_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P53_MODE",
     "location": {
       "column": "9",
-      "line": "433",
+      "line": "435",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P53_MODE",
@@ -24972,13 +25000,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17645@macro@P53_PORT",
+    "ID": "c:Hardware.h@17741@macro@P53_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P53_PORT",
     "location": {
       "column": "9",
-      "line": "434",
+      "line": "436",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P53_PORT",
@@ -24986,13 +25014,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17690@macro@P53_PULL",
+    "ID": "c:Hardware.h@17786@macro@P53_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P53_PULL",
     "location": {
       "column": "9",
-      "line": "435",
+      "line": "437",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P53_PULL",
@@ -25000,13 +25028,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17741@macro@P54_MODE",
+    "ID": "c:Hardware.h@17837@macro@P54_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P54_MODE",
     "location": {
       "column": "9",
-      "line": "437",
+      "line": "439",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P54_MODE",
@@ -25014,13 +25042,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17794@macro@P54_PORT",
+    "ID": "c:Hardware.h@17890@macro@P54_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P54_PORT",
     "location": {
       "column": "9",
-      "line": "438",
+      "line": "440",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P54_PORT",
@@ -25028,13 +25056,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17839@macro@P54_PULL",
+    "ID": "c:Hardware.h@17935@macro@P54_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P54_PULL",
     "location": {
       "column": "9",
-      "line": "439",
+      "line": "441",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P54_PULL",
@@ -25042,13 +25070,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17890@macro@P55_MODE",
+    "ID": "c:Hardware.h@17986@macro@P55_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P55_MODE",
     "location": {
       "column": "9",
-      "line": "441",
+      "line": "443",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P55_MODE",
@@ -25056,13 +25084,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17943@macro@P55_PORT",
+    "ID": "c:Hardware.h@18039@macro@P55_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P55_PORT",
     "location": {
       "column": "9",
-      "line": "442",
+      "line": "444",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P55_PORT",
@@ -25070,13 +25098,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@17988@macro@P55_PULL",
+    "ID": "c:Hardware.h@18084@macro@P55_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P55_PULL",
     "location": {
       "column": "9",
-      "line": "443",
+      "line": "445",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P55_PULL",
@@ -25084,13 +25112,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18037@macro@P55_INPUT_MODE",
+    "ID": "c:Hardware.h@18133@macro@P55_INPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P55_INPUT_MODE",
     "location": {
       "column": "9",
-      "line": "444",
+      "line": "446",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P55_INPUT_MODE",
@@ -25098,13 +25126,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18091@macro@P55_OUTPUT_MODE",
+    "ID": "c:Hardware.h@18187@macro@P55_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P55_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "445",
+      "line": "447",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P55_OUTPUT_MODE",
@@ -25112,13 +25140,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18259@macro@P40_MODE",
+    "ID": "c:Hardware.h@18355@macro@P40_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_MODE",
     "location": {
       "column": "9",
-      "line": "449",
+      "line": "451",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_MODE",
@@ -25126,13 +25154,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18312@macro@P40_PORT",
+    "ID": "c:Hardware.h@18408@macro@P40_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_PORT",
     "location": {
       "column": "9",
-      "line": "450",
+      "line": "452",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_PORT",
@@ -25140,13 +25168,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18357@macro@P40_PULL",
+    "ID": "c:Hardware.h@18453@macro@P40_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P40_PULL",
     "location": {
       "column": "9",
-      "line": "451",
+      "line": "453",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P40_PULL",
@@ -25154,13 +25182,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18408@macro@P41_MODE",
+    "ID": "c:Hardware.h@18504@macro@P41_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_MODE",
     "location": {
       "column": "9",
-      "line": "453",
+      "line": "455",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_MODE",
@@ -25168,13 +25196,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18461@macro@P41_PORT",
+    "ID": "c:Hardware.h@18557@macro@P41_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_PORT",
     "location": {
       "column": "9",
-      "line": "454",
+      "line": "456",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_PORT",
@@ -25182,13 +25210,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18506@macro@P41_PULL",
+    "ID": "c:Hardware.h@18602@macro@P41_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P41_PULL",
     "location": {
       "column": "9",
-      "line": "455",
+      "line": "457",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P41_PULL",
@@ -25196,13 +25224,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18557@macro@P42_MODE",
+    "ID": "c:Hardware.h@18653@macro@P42_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_MODE",
     "location": {
       "column": "9",
-      "line": "457",
+      "line": "459",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_MODE",
@@ -25210,13 +25238,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18610@macro@P42_PORT",
+    "ID": "c:Hardware.h@18706@macro@P42_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_PORT",
     "location": {
       "column": "9",
-      "line": "458",
+      "line": "460",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_PORT",
@@ -25224,13 +25252,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18655@macro@P42_PULL",
+    "ID": "c:Hardware.h@18751@macro@P42_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P42_PULL",
     "location": {
       "column": "9",
-      "line": "459",
+      "line": "461",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P42_PULL",
@@ -25238,13 +25266,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18706@macro@P43_MODE",
+    "ID": "c:Hardware.h@18802@macro@P43_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_MODE",
     "location": {
       "column": "9",
-      "line": "461",
+      "line": "463",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_MODE",
@@ -25252,13 +25280,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18759@macro@P43_PORT",
+    "ID": "c:Hardware.h@18855@macro@P43_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_PORT",
     "location": {
       "column": "9",
-      "line": "462",
+      "line": "464",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_PORT",
@@ -25266,13 +25294,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18804@macro@P43_PULL",
+    "ID": "c:Hardware.h@18900@macro@P43_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P43_PULL",
     "location": {
       "column": "9",
-      "line": "463",
+      "line": "465",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P43_PULL",
@@ -25280,13 +25308,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@18968@macro@P70_MODE",
+    "ID": "c:Hardware.h@19064@macro@P70_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P70_MODE",
     "location": {
       "column": "9",
-      "line": "468",
+      "line": "470",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P70_MODE",
@@ -25294,13 +25322,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19020@macro@P70_PORT",
+    "ID": "c:Hardware.h@19116@macro@P70_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P70_PORT",
     "location": {
       "column": "9",
-      "line": "469",
+      "line": "471",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P70_PORT",
@@ -25308,13 +25336,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19065@macro@P70_PULL",
+    "ID": "c:Hardware.h@19161@macro@P70_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P70_PULL",
     "location": {
       "column": "9",
-      "line": "470",
+      "line": "472",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P70_PULL",
@@ -25322,13 +25350,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19116@macro@P71_MODE",
+    "ID": "c:Hardware.h@19212@macro@P71_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P71_MODE",
     "location": {
       "column": "9",
-      "line": "472",
+      "line": "474",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P71_MODE",
@@ -25336,13 +25364,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19168@macro@P71_PORT",
+    "ID": "c:Hardware.h@19264@macro@P71_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P71_PORT",
     "location": {
       "column": "9",
-      "line": "473",
+      "line": "475",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P71_PORT",
@@ -25350,13 +25378,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19213@macro@P71_PULL",
+    "ID": "c:Hardware.h@19309@macro@P71_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P71_PULL",
     "location": {
       "column": "9",
-      "line": "474",
+      "line": "476",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P71_PULL",
@@ -25364,13 +25392,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19262@macro@P71_OUTPUT_MODE",
+    "ID": "c:Hardware.h@19358@macro@P71_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P71_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "475",
+      "line": "477",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P71_OUTPUT_MODE",
@@ -25378,13 +25406,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19303@macro@P72_MODE",
+    "ID": "c:Hardware.h@19399@macro@P72_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P72_MODE",
     "location": {
       "column": "9",
-      "line": "477",
+      "line": "479",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P72_MODE",
@@ -25392,13 +25420,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19355@macro@P72_PORT",
+    "ID": "c:Hardware.h@19451@macro@P72_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P72_PORT",
     "location": {
       "column": "9",
-      "line": "478",
+      "line": "480",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P72_PORT",
@@ -25406,13 +25434,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19400@macro@P72_PULL",
+    "ID": "c:Hardware.h@19496@macro@P72_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P72_PULL",
     "location": {
       "column": "9",
-      "line": "479",
+      "line": "481",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P72_PULL",
@@ -25420,13 +25448,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19451@macro@P73_MODE",
+    "ID": "c:Hardware.h@19547@macro@P73_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P73_MODE",
     "location": {
       "column": "9",
-      "line": "481",
+      "line": "483",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P73_MODE",
@@ -25434,13 +25462,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19503@macro@P73_PORT",
+    "ID": "c:Hardware.h@19599@macro@P73_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P73_PORT",
     "location": {
       "column": "9",
-      "line": "482",
+      "line": "484",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P73_PORT",
@@ -25448,13 +25476,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19548@macro@P73_PULL",
+    "ID": "c:Hardware.h@19644@macro@P73_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P73_PULL",
     "location": {
       "column": "9",
-      "line": "483",
+      "line": "485",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P73_PULL",
@@ -25462,13 +25490,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19599@macro@P74_MODE",
+    "ID": "c:Hardware.h@19695@macro@P74_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P74_MODE",
     "location": {
       "column": "9",
-      "line": "485",
+      "line": "487",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P74_MODE",
@@ -25476,13 +25504,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19651@macro@P74_PORT",
+    "ID": "c:Hardware.h@19747@macro@P74_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P74_PORT",
     "location": {
       "column": "9",
-      "line": "486",
+      "line": "488",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P74_PORT",
@@ -25490,13 +25518,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19696@macro@P74_PULL",
+    "ID": "c:Hardware.h@19792@macro@P74_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P74_PULL",
     "location": {
       "column": "9",
-      "line": "487",
+      "line": "489",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P74_PULL",
@@ -25504,13 +25532,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19745@macro@P74_OUTPUT_MODE",
+    "ID": "c:Hardware.h@19841@macro@P74_OUTPUT_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P74_OUTPUT_MODE",
     "location": {
       "column": "9",
-      "line": "488",
+      "line": "490",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P74_OUTPUT_MODE",
@@ -25518,13 +25546,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19786@macro@P75_MODE",
+    "ID": "c:Hardware.h@19882@macro@P75_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P75_MODE",
     "location": {
       "column": "9",
-      "line": "490",
+      "line": "492",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P75_MODE",
@@ -25532,13 +25560,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19838@macro@P75_PORT",
+    "ID": "c:Hardware.h@19934@macro@P75_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P75_PORT",
     "location": {
       "column": "9",
-      "line": "491",
+      "line": "493",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P75_PORT",
@@ -25546,13 +25574,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19883@macro@P75_PULL",
+    "ID": "c:Hardware.h@19979@macro@P75_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P75_PULL",
     "location": {
       "column": "9",
-      "line": "492",
+      "line": "494",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P75_PULL",
@@ -25560,13 +25588,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19934@macro@P76_MODE",
+    "ID": "c:Hardware.h@20030@macro@P76_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P76_MODE",
     "location": {
       "column": "9",
-      "line": "494",
+      "line": "496",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P76_MODE",
@@ -25574,13 +25602,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@19986@macro@P76_PORT",
+    "ID": "c:Hardware.h@20082@macro@P76_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P76_PORT",
     "location": {
       "column": "9",
-      "line": "495",
+      "line": "497",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P76_PORT",
@@ -25588,13 +25616,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20031@macro@P76_PULL",
+    "ID": "c:Hardware.h@20127@macro@P76_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P76_PULL",
     "location": {
       "column": "9",
-      "line": "496",
+      "line": "498",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P76_PULL",
@@ -25602,13 +25630,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20082@macro@P77_MODE",
+    "ID": "c:Hardware.h@20178@macro@P77_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P77_MODE",
     "location": {
       "column": "9",
-      "line": "498",
+      "line": "500",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P77_MODE",
@@ -25616,13 +25644,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20135@macro@P77_PORT",
+    "ID": "c:Hardware.h@20231@macro@P77_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P77_PORT",
     "location": {
       "column": "9",
-      "line": "499",
+      "line": "501",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P77_PORT",
@@ -25630,13 +25658,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20179@macro@P77_PULL",
+    "ID": "c:Hardware.h@20275@macro@P77_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P77_PULL",
     "location": {
       "column": "9",
-      "line": "500",
+      "line": "502",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P77_PULL",
@@ -25644,13 +25672,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20230@macro@P7_MODE",
+    "ID": "c:Hardware.h@20326@macro@P7_MODE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P7_MODE",
     "location": {
       "column": "9",
-      "line": "502",
+      "line": "504",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P7_MODE",
@@ -25658,13 +25686,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@20678@macro@P7_PORT",
+    "ID": "c:Hardware.h@20774@macro@P7_PORT",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P7_PORT",
     "location": {
       "column": "9",
-      "line": "511",
+      "line": "513",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P7_PORT",
@@ -25672,13 +25700,13 @@
     "scope": null
   },
   {
-    "ID": "c:Hardware.h@21126@macro@P7_PULL",
+    "ID": "c:Hardware.h@21222@macro@P7_PULL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "P7_PULL",
     "location": {
       "column": "9",
-      "line": "520",
+      "line": "522",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hardware.h"
     },
     "name": "P7_PULL",
@@ -35684,202 +35712,6 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@105@macro@_DLIB_PRODUCT_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_PRODUCT_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_PRODUCT_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@248@macro@_DIFUNCT_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DIFUNCT_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DIFUNCT_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@281@macro@_CPPINIT_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_CPPINIT_ATTR",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_CPPINIT_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@316@macro@_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@455@macro@_DLIB_LOCALE_TABLE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_LOCALE_TABLE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_LOCALE_TABLE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@498@macro@_DLIB_CONST_SECTION_ATTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONST_SECTION_ATTR",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_CONST_SECTION_ATTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@540@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "location": {
-      "column": "9",
-      "line": "23",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@605@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@648@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "25",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@693@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "location": {
-      "column": "9",
-      "line": "26",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@743@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "27",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@787@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "location": {
-      "column": "9",
-      "line": "28",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@844@macro@_DLIB_TLS_INIT_DATA_MEM",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TLS_INIT_DATA_MEM",
-    "location": {
-      "column": "9",
-      "line": "29",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_TLS_INIT_DATA_MEM",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Product.h@883@macro@_DLIB_TLS_INIT_DATA_MEM_PTR",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TLS_INIT_DATA_MEM_PTR",
-    "location": {
-      "column": "9",
-      "line": "30",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
-    },
-    "name": "_DLIB_TLS_INIT_DATA_MEM_PTR",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:intrinsics.h@415@macro@__INTRINSICS_INCLUDED",
     "What": "MacroDef",
     "defdec": "Def",
@@ -36129,6 +35961,188 @@
     },
     "name": "__rol1w",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@29@macro@__HOOKS_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__HOOKS_H__",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "__HOOKS_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@277@macro@HOOK_TURN_LED1_ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_TURN_LED1_ON",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_TURN_LED1_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@335@macro@HOOK_TURN_LED2_ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_TURN_LED2_ON",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_TURN_LED2_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@393@macro@HOOK_TURN_LED3_ON",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_TURN_LED3_ON",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_TURN_LED3_ON",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@451@macro@HOOK_TURN_ALL_LEDS_OFF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_TURN_ALL_LEDS_OFF",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_TURN_ALL_LEDS_OFF",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@663@macro@HOOK_SET_MUSICAL_NOTE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_SET_MUSICAL_NOTE",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_SET_MUSICAL_NOTE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@735@macro@HOOK_TURN_OFF_MUSICAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_TURN_OFF_MUSICAL",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_TURN_OFF_MUSICAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1156@macro@HOOK_ACESSO_BLOQUEADO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_ACESSO_BLOQUEADO",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_ACESSO_BLOQUEADO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1247@macro@HOOK_LIBERAR_ACESSO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_LIBERAR_ACESSO",
+    "location": {
+      "column": "9",
+      "line": "33",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_LIBERAR_ACESSO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1306@macro@HOOK_ACESSO_LIBERADO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_ACESSO_LIBERADO",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_ACESSO_LIBERADO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1365@macro@HOOK_INICIA_LIBERACAO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_INICIA_LIBERACAO",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_INICIA_LIBERACAO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1448@macro@HOOK_FINALIZA_LIBERACAO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_FINALIZA_LIBERACAO",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_FINALIZA_LIBERACAO",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Hooks.h@1802@macro@HOOK_DRV_RTC_1_SEC_EVENT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HOOK_DRV_RTC_1_SEC_EVENT",
+    "location": {
+      "column": "9",
+      "line": "43",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+    },
+    "name": "HOOK_DRV_RTC_1_SEC_EVENT",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -36670,17 +36684,199 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_leds.h@32@macro@__DRV_LEDS_H__",
+    "ID": "c:DLib_Product.h@105@macro@_DLIB_PRODUCT_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DRV_LEDS_H__",
+    "display": "_DLIB_PRODUCT_H",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+      "line": "5",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
     },
-    "name": "__DRV_LEDS_H__",
-    "origin": "user_include",
+    "name": "_DLIB_PRODUCT_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@248@macro@_DIFUNCT_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DIFUNCT_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DIFUNCT_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@281@macro@_CPPINIT_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_CPPINIT_ATTR",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_CPPINIT_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@316@macro@_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_RL78ABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@455@macro@_DLIB_LOCALE_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_LOCALE_TABLE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_LOCALE_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@498@macro@_DLIB_CONST_SECTION_ATTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_CONST_SECTION_ATTR",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_CONST_SECTION_ATTR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@540@macro@_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_FUNCTION_ATTRIBUTES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@605@macro@_DLIB_ELF_INIT_TABLE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_TABLE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@648@macro@_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_SOURCE_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@693@macro@_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_DESTINATION_MEMORY",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@743@macro@_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_INTERFACE_VERSION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@787@macro@_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_ELF_INIT_REGION_COUNT_TYPE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@844@macro@_DLIB_TLS_INIT_DATA_MEM",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TLS_INIT_DATA_MEM",
+    "location": {
+      "column": "9",
+      "line": "29",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_TLS_INIT_DATA_MEM",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@883@macro@_DLIB_TLS_INIT_DATA_MEM_PTR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_TLS_INIT_DATA_MEM_PTR",
+    "location": {
+      "column": "9",
+      "line": "30",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\DLib_Product.h"
+    },
+    "name": "_DLIB_TLS_INIT_DATA_MEM_PTR",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -36704,44 +36900,44 @@
     "display": "",
     "fields": [
       {
-        "ID": "c:@EA@LED_TYPE@LED1",
+        "ID": "c:@EA@LED_TYPE@LED_RED",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "LED1",
+        "display": "LED_RED",
         "location": {
           "column": "3",
           "line": "8",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
         },
-        "name": "LED1",
+        "name": "LED_RED",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@LED_TYPE@LED2",
+        "ID": "c:@EA@LED_TYPE@LED_GREEN",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "LED2",
+        "display": "LED_GREEN",
         "location": {
           "column": "3",
           "line": "9",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
         },
-        "name": "LED2",
+        "name": "LED_GREEN",
         "origin": "user_include",
         "scope": null
       },
       {
-        "ID": "c:@EA@LED_TYPE@LED3",
+        "ID": "c:@EA@LED_TYPE@LED_BLUE",
         "What": "Enumerator",
         "defdec": "Def",
-        "display": "LED3",
+        "display": "LED_BLUE",
         "location": {
           "column": "3",
           "line": "10",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
         },
-        "name": "LED3",
+        "name": "LED_BLUE",
         "origin": "user_include",
         "scope": null
       }
@@ -36756,58 +36952,170 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Liga_Led",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Liga_Led(LED_TYPE)",
+    "ID": "c:DRV_Leds.h@149@macro@LED_RED_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_RED_PORT",
     "location": {
-      "column": "6",
-      "line": "15",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
-    },
-    "name": "Liga_Led",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Liga_Led",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Liga_Led(LED_TYPE)",
-    "location": {
-      "column": "6",
-      "line": "15",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
-    },
-    "name": "Liga_Led",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Desliga_Led",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Desliga_Led(LED_TYPE)",
-    "location": {
-      "column": "6",
+      "column": "17",
       "line": "16",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
     },
-    "name": "Desliga_Led",
+    "name": "LED_RED_PORT",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Desliga_Led",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Desliga_Led(LED_TYPE)",
+    "ID": "c:DRV_Leds.h@192@macro@LED_GREEN_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_GREEN_PORT",
     "location": {
-      "column": "6",
-      "line": "16",
+      "column": "17",
+      "line": "17",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
     },
-    "name": "Desliga_Led",
+    "name": "LED_GREEN_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@235@macro@LED_BLUE_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_BLUE_PORT",
+    "location": {
+      "column": "17",
+      "line": "18",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "LED_BLUE_PORT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@280@macro@LED_RED_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_RED_PIN",
+    "location": {
+      "column": "17",
+      "line": "20",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "LED_RED_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@323@macro@LED_GREEN_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_GREEN_PIN",
+    "location": {
+      "column": "17",
+      "line": "21",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "LED_GREEN_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@366@macro@LED_BLUE_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LED_BLUE_PIN",
+    "location": {
+      "column": "17",
+      "line": "22",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "LED_BLUE_PIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@411@macro@REGISTER_MASK2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REGISTER_MASK2",
+    "location": {
+      "column": "17",
+      "line": "24",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "REGISTER_MASK2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@496@macro@REGISTER_MASK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "REGISTER_MASK",
+    "location": {
+      "column": "17",
+      "line": "25",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "REGISTER_MASK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@579@macro@_PORT_PIN_TO_OUT_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_PORT_PIN_TO_OUT_REG",
+    "location": {
+      "column": "17",
+      "line": "27",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "_PORT_PIN_TO_OUT_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Leds.h@659@macro@_PORT_PIN_TO_MODE_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_PORT_PIN_TO_MODE_REG",
+    "location": {
+      "column": "17",
+      "line": "28",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "_PORT_PIN_TO_MODE_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_LEDS_Liga",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_LEDS_Liga(LED_TYPE)",
+    "location": {
+      "column": "6",
+      "line": "32",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "DRV_LEDS_Liga",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DRV_LEDS_Desliga_Led",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_LEDS_Desliga_Led(LED_TYPE)",
+    "location": {
+      "column": "6",
+      "line": "33",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
+    },
+    "name": "DRV_LEDS_Desliga_Led",
     "origin": "user_include",
     "scope": null
   },
@@ -36818,7 +37126,7 @@
     "display": "void Alterna_Led(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "34",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Leds.h"
     },
     "name": "Alterna_Led",
@@ -36826,185 +37134,269 @@
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@29@macro@__HOOKS_H__",
+    "ID": "c:DRV_Motor.h@32@macro@__DRV_UART_H_",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__HOOKS_H__",
+    "display": "__DRV_UART_H_",
     "location": {
       "column": "9",
       "line": "2",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "__HOOKS_H__",
+    "name": "__DRV_UART_H_",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@277@macro@HOOK_TURN_LED1_ON",
+    "ID": "c:DRV_Motor.h@105@macro@DRV_MOTOR_CLOCK",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_TURN_LED1_ON",
+    "display": "DRV_MOTOR_CLOCK",
+    "location": {
+      "column": "10",
+      "line": "8",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_CLOCK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@166@macro@DRV_MOTOR_CLOCK_VAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_CLOCK_VAL",
+    "location": {
+      "column": "10",
+      "line": "9",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_CLOCK_VAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@245@macro@DRV_MOTOR_FREQ_HZ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_FREQ_HZ",
+    "location": {
+      "column": "10",
+      "line": "10",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_FREQ_HZ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@305@macro@DRV_MOTOR_FREQ_VAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_FREQ_VAL",
+    "location": {
+      "column": "10",
+      "line": "12",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_FREQ_VAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@405@macro@DRV_MOTOR_CLOCK_DUTY",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_CLOCK_DUTY",
     "location": {
       "column": "9",
-      "line": "11",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "line": "14",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_TURN_LED1_ON",
+    "name": "DRV_MOTOR_CLOCK_DUTY",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@335@macro@HOOK_TURN_LED2_ON",
+    "ID": "c:DRV_Motor.h@487@macro@DRV_MOTOR_0_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_TURN_LED2_ON",
+    "display": "DRV_MOTOR_0_GRAUS_FREQ",
     "location": {
       "column": "9",
-      "line": "13",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "line": "16",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_TURN_LED2_ON",
+    "name": "DRV_MOTOR_0_GRAUS_FREQ",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@393@macro@HOOK_TURN_LED3_ON",
+    "ID": "c:DRV_Motor.h@546@macro@DRV_MOTOR_90_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_TURN_LED3_ON",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
-    },
-    "name": "HOOK_TURN_LED3_ON",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:Hooks.h@451@macro@HOOK_TURN_ALL_LEDS_OFF",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HOOK_TURN_ALL_LEDS_OFF",
+    "display": "DRV_MOTOR_90_GRAUS_FREQ",
     "location": {
       "column": "9",
       "line": "17",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_TURN_ALL_LEDS_OFF",
+    "name": "DRV_MOTOR_90_GRAUS_FREQ",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@663@macro@HOOK_SET_MUSICAL_NOTE",
+    "ID": "c:DRV_Motor.h@606@macro@DRV_MOTOR_180_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_SET_MUSICAL_NOTE",
+    "display": "DRV_MOTOR_180_GRAUS_FREQ",
+    "location": {
+      "column": "9",
+      "line": "18",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_180_GRAUS_FREQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@672@macro@DRV_MOTOR_270_GRAUS_FREQ",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_270_GRAUS_FREQ",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_MOTOR_270_GRAUS_FREQ",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DRV_Motor.h@738@macro@DRV_MOTOR_0_GRAUS_VAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DRV_MOTOR_0_GRAUS_VAL",
     "location": {
       "column": "9",
       "line": "22",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_SET_MUSICAL_NOTE",
+    "name": "DRV_MOTOR_0_GRAUS_VAL",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@735@macro@HOOK_TURN_OFF_MUSICAL",
+    "ID": "c:DRV_Motor.h@797@macro@DRV_MOTOR_90_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_TURN_OFF_MUSICAL",
+    "display": "DRV_MOTOR_90_GRAUS_VAL",
     "location": {
       "column": "9",
       "line": "23",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_TURN_OFF_MUSICAL",
+    "name": "DRV_MOTOR_90_GRAUS_VAL",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1132@macro@HOOK_ACESSO_BLOQUEADO",
+    "ID": "c:DRV_Motor.h@917@macro@DRV_MOTOR_180_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_ACESSO_BLOQUEADO",
+    "display": "DRV_MOTOR_180_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "31",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "line": "24",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_ACESSO_BLOQUEADO",
+    "name": "DRV_MOTOR_180_GRAUS_VAL",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1223@macro@HOOK_LIBERAR_ACESSO",
+    "ID": "c:DRV_Motor.h@1028@macro@DRV_MOTOR_270_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_LIBERAR_ACESSO",
+    "display": "DRV_MOTOR_270_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "32",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "line": "25",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_LIBERAR_ACESSO",
+    "name": "DRV_MOTOR_270_GRAUS_VAL",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1282@macro@HOOK_ACESSO_LIBERADO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HOOK_ACESSO_LIBERADO",
+    "ID": "c:@F@DRV_Motor_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_Motor_Init(void)",
     "location": {
-      "column": "9",
-      "line": "33",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "column": "6",
+      "line": "28",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_ACESSO_LIBERADO",
+    "name": "DRV_Motor_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1341@macro@HOOK_INICIA_LIBERACAO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HOOK_INICIA_LIBERACAO",
+    "ID": "c:@F@DRV_Motor_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_Motor_Init(void)",
     "location": {
-      "column": "9",
-      "line": "34",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "column": "6",
+      "line": "28",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_INICIA_LIBERACAO",
+    "name": "DRV_Motor_Init",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1400@macro@HOOK_FINALIZA_LIBERACAO",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "HOOK_FINALIZA_LIBERACAO",
+    "ID": "c:@F@DRV_Motor_Set_Angle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_Motor_Set_Angle(WORD)",
     "location": {
-      "column": "9",
-      "line": "35",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "column": "6",
+      "line": "29",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "HOOK_FINALIZA_LIBERACAO",
+    "name": "DRV_Motor_Set_Angle",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1745@macro@HOOK_DRV_RTC_1_SEC_EVENT",
+    "ID": "c:@F@DRV_Motor_Set_Angle",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DRV_Motor_Set_Angle(WORD)",
+    "location": {
+      "column": "6",
+      "line": "29",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+    },
+    "name": "DRV_Motor_Set_Angle",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "HOOK_DRV_RTC_1_SEC_EVENT",
+    "display": "_DLIB_CONFIG_H",
     "location": {
       "column": "9",
-      "line": "42",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Hooks.h"
+      "line": "5",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\lib\\DLib_Config_Normal.h"
     },
-    "name": "HOOK_DRV_RTC_1_SEC_EVENT",
-    "origin": "user_include",
+    "name": "_DLIB_CONFIG_H",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -37358,34 +37750,6 @@
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Headers\\CTRL_PetAccess.h"
     },
     "name": "Pets_Table",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CTRL_Pet_Access_Tasks",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void CTRL_Pet_Access_Tasks(void)",
-    "location": {
-      "column": "6",
-      "line": "55",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Headers\\CTRL_PetAccess.h"
-    },
-    "name": "CTRL_Pet_Access_Tasks",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@CTRL_PetAccess_Time_Event",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void CTRL_PetAccess_Time_Event(void)",
-    "location": {
-      "column": "6",
-      "line": "56",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Headers\\CTRL_PetAccess.h"
-    },
-    "name": "CTRL_PetAccess_Time_Event",
     "origin": "user_include",
     "scope": null
   },
@@ -37823,20 +38187,6 @@
     },
     "name": "DRV_RTC_Is_Ready",
     "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Config_Normal.h@105@macro@_DLIB_CONFIG_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_CONFIG_H",
-    "location": {
-      "column": "9",
-      "line": "5",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\lib\\DLib_Config_Normal.h"
-    },
-    "name": "_DLIB_CONFIG_H",
-    "origin": "system_include",
     "scope": null
   },
   {
@@ -38588,16 +38938,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@__data_free",
+    "ID": "c:@F@__data_realloc",
     "What": "Function",
     "defdec": "Dec",
-    "display": "void __data_free(void *)",
+    "display": "void * __data_realloc(void *, __data_size_t)",
     "location": {
       "column": "7",
       "line": "157",
       "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
     },
-    "name": "__data_free",
+    "name": "__data_realloc",
     "origin": "system_include",
     "scope": null
   },
@@ -38616,6 +38966,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@__data_realloc_in_place",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void * __data_realloc_in_place(void *, __data_size_t)",
+    "location": {
+      "column": "7",
+      "line": "157",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
+    },
+    "name": "__data_realloc_in_place",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__data_free",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __data_free(void *)",
+    "location": {
+      "column": "7",
+      "line": "157",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
+    },
+    "name": "__data_free",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@__data_calloc",
     "What": "Function",
     "defdec": "Dec",
@@ -38630,20 +39008,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@__data_realloc",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * __data_realloc(void *, __data_size_t)",
-    "location": {
-      "column": "7",
-      "line": "157",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
-    },
-    "name": "__data_realloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@__data_aligned_alloc",
     "What": "Function",
     "defdec": "Dec",
@@ -38654,20 +39018,6 @@
       "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
     },
     "name": "__data_aligned_alloc",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__data_realloc_in_place",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void * __data_realloc_in_place(void *, __data_size_t)",
-    "location": {
-      "column": "7",
-      "line": "157",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\stdlib.h"
-    },
-    "name": "__data_realloc_in_place",
     "origin": "system_include",
     "scope": null
   },
@@ -39114,7 +39464,7 @@
     "display": "void ctrl_Pet_Access_Food_Reload(uint8_t *, uint8_t)",
     "location": {
       "column": "6",
-      "line": "141",
+      "line": "138",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Source\\CTRL_PetAccess.c"
     },
     "name": "ctrl_Pet_Access_Food_Reload",
@@ -39128,7 +39478,7 @@
     "display": "void CTRL_PetAccess_Time_Event(void)",
     "location": {
       "column": "6",
-      "line": "145",
+      "line": "142",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Source\\CTRL_PetAccess.c"
     },
     "name": "CTRL_PetAccess_Time_Event",
@@ -39136,13 +39486,13 @@
     "scope": null
   },
   {
-    "ID": "c:CTRL_PetAccess.c@3366@F@CTRL_PetAccess_Time_Event@pet",
+    "ID": "c:CTRL_PetAccess.c@3213@F@CTRL_PetAccess_Time_Event@pet",
     "What": "Variable",
     "defdec": "Def",
     "display": "pet",
     "location": {
       "column": "8",
-      "line": "147",
+      "line": "144",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Source\\CTRL_PetAccess.c"
     },
     "name": "pet",
@@ -39150,87 +39500,17 @@
     "scope": null
   },
   {
-    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
-    "What": "MacroDef",
+    "ID": "c:CTRL_PetAccess.c@3824@F@CTRL_PetAccess_Time_Event@last_state",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "_YSIZET_H",
+    "display": "last_state",
     "location": {
-      "column": "9",
-      "line": "5",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
+      "column": "23",
+      "line": "169",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Control\\Source\\CTRL_PetAccess.c"
     },
-    "name": "_YSIZET_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@277@macro@_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "16",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
-    },
-    "name": "_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_STD_USING_SIZE_T",
-    "location": {
-      "column": "11",
-      "line": "17",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
-    },
-    "name": "_STD_USING_SIZE_T",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "_Sizet",
-    "location": {
-      "column": "18",
-      "line": "18",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
-    },
-    "name": "size_t",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__DATA_PTR_MEM_HELPER1__",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
-    },
-    "name": "__DATA_PTR_MEM_HELPER1__",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ysizet.h@T@__data_size_t",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "unsigned int",
-    "location": {
-      "column": "1",
-      "line": "23",
-      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
-    },
-    "name": "__data_size_t",
-    "origin": "system_include",
+    "name": "last_state",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -39374,265 +39654,97 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Leds.c@32@macro@__DRV_LEDS_C__",
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DRV_LEDS_C__",
+    "display": "_YSIZET_H",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_Leds.c"
+      "line": "5",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "__DRV_LEDS_C__",
-    "origin": "project_file",
+    "name": "_YSIZET_H",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@Liga_Led",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Liga_Led(LED_TYPE)",
-    "location": {
-      "column": "6",
-      "line": "7",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_Leds.c"
-    },
-    "name": "Liga_Led",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Desliga_Led",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void Desliga_Led(LED_TYPE)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_Leds.c"
-    },
-    "name": "Desliga_Led",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@32@macro@__DRV_UART_H_",
+    "ID": "c:ysizet.h@277@macro@_SIZE_T",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DRV_UART_H_",
+    "display": "_SIZE_T",
     "location": {
-      "column": "9",
-      "line": "2",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "__DRV_UART_H_",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@80@macro@DRV_MOTOR_CLOCK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_CLOCK",
-    "location": {
-      "column": "10",
-      "line": "6",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_CLOCK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@141@macro@DRV_MOTOR_CLOCK_VAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_CLOCK_VAL",
-    "location": {
-      "column": "10",
-      "line": "7",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_CLOCK_VAL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@205@macro@DRV_MOTOR_FREQ_HZ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_FREQ_HZ",
-    "location": {
-      "column": "10",
-      "line": "8",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_FREQ_HZ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@264@macro@DRV_MOTOR_FREQ_VAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_FREQ_VAL",
-    "location": {
-      "column": "10",
-      "line": "10",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_FREQ_VAL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@357@macro@DRV_MOTOR_CLOCK_DUTY",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_CLOCK_DUTY",
-    "location": {
-      "column": "9",
-      "line": "12",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_CLOCK_DUTY",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@439@macro@DRV_MOTOR_90_GRAUS_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_90_GRAUS_FREQ",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_90_GRAUS_FREQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@500@macro@DRV_MOTOR_180_GRAUS_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_180_GRAUS_FREQ",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_MOTOR_180_GRAUS_FREQ",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.h@567@macro@DRV_MOTOR_270_GRAUS_FREQ",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DRV_MOTOR_270_GRAUS_FREQ",
-    "location": {
-      "column": "9",
+      "column": "11",
       "line": "16",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "DRV_MOTOR_270_GRAUS_FREQ",
-    "origin": "user_include",
+    "name": "_SIZE_T",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@634@macro@DRV_MOTOR_0_GRAUS_VAL",
+    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "DRV_MOTOR_0_GRAUS_VAL",
+    "display": "_STD_USING_SIZE_T",
     "location": {
-      "column": "9",
-      "line": "19",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+      "column": "11",
+      "line": "17",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "DRV_MOTOR_0_GRAUS_VAL",
-    "origin": "user_include",
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@693@macro@DRV_MOTOR_90_GRAUS_VAL",
-    "What": "MacroDef",
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "DRV_MOTOR_90_GRAUS_VAL",
+    "display": "_Sizet",
     "location": {
-      "column": "9",
-      "line": "20",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+      "column": "18",
+      "line": "18",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "DRV_MOTOR_90_GRAUS_VAL",
-    "origin": "user_include",
+    "name": "size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@803@macro@DRV_MOTOR_180_GRAUS_VAL",
+    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "DRV_MOTOR_180_GRAUS_VAL",
+    "display": "__DATA_PTR_MEM_HELPER1__",
     "location": {
       "column": "9",
       "line": "21",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "DRV_MOTOR_180_GRAUS_VAL",
-    "origin": "user_include",
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@904@macro@DRV_MOTOR_270_GRAUS_VAL",
-    "What": "MacroDef",
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
     "defdec": "Def",
-    "display": "DRV_MOTOR_270_GRAUS_VAL",
+    "display": "unsigned int",
     "location": {
-      "column": "9",
-      "line": "22",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
+      "column": "1",
+      "line": "23",
+      "path": "F:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\rl78\\inc\\c\\ysizet.h"
     },
-    "name": "DRV_MOTOR_270_GRAUS_VAL",
-    "origin": "user_include",
+    "name": "__data_size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@DRV_UART_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void DRV_UART_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "25",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_UART_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@DRV_Motor_Set_Angle",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void DRV_Motor_Set_Angle(WORD)",
-    "location": {
-      "column": "6",
-      "line": "26",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
-    },
-    "name": "DRV_Motor_Set_Angle",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_Motor.c@182@macro@__DRV_MOTOR_C__",
+    "ID": "c:DRV_Motor.c@159@macro@__DRV_MOTOR_C__",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "__DRV_MOTOR_C__",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "8",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_Motor.c"
     },
     "name": "__DRV_MOTOR_C__",
@@ -39646,7 +39758,7 @@
     "display": "void DRV_Motor_Init(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "12",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_Motor.c"
     },
     "name": "DRV_Motor_Init",
@@ -39682,99 +39794,29 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@624@macro@pwrtwo",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "pwrtwo",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "pwrtwo",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@682@macro@DESIRE_BAUDURATE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "DESIRE_BAUDURATE",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "DESIRE_BAUDURATE",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@719@macro@SYSTEM_CLOCK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SYSTEM_CLOCK",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "SYSTEM_CLOCK",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@756@macro@CLOCK_DIV",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLOCK_DIV",
-    "location": {
-      "column": "9",
-      "line": "21",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "CLOCK_DIV",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@874@macro@BAUDURATE_VAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "BAUDURATE_VAL",
-    "location": {
-      "column": "9",
-      "line": "24",
-      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
-    },
-    "name": "BAUDURATE_VAL",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1183",
+    "ID": "c:DRV_RTC.c@S@DRV_RTC.c@827",
     "What": "Struct",
     "defdec": "Def",
     "display": "",
     "location": {
       "column": "1",
-      "line": "29",
+      "line": "23",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "members": [
       {
-        "ID": "c:DRV_RTC.c@S@DRV_RTC.c@1183@FI@lastRead",
+        "ID": "c:DRV_RTC.c@S@DRV_RTC.c@827@FI@lastRead",
         "What": "FieldDecl",
         "defdec": "Def",
         "display": "lastRead",
         "location": {
           "column": "12",
-          "line": "31",
+          "line": "25",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "lastRead",
         "origin": "project_file",
-        "scope": "_anonymous_DRV_RTC_c_29_1"
+        "scope": "_anonymous_DRV_RTC_c_23_1"
       },
       {
         "ID": "c:@drvRTC_Obj",
@@ -39783,12 +39825,12 @@
         "display": "drvRTC_Obj",
         "location": {
           "column": "3",
-          "line": "34",
+          "line": "28",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "drvRTC_Obj",
         "origin": "project_file",
-        "scope": "_anonymous_DRV_RTC_c_29_1"
+        "scope": "_anonymous_DRV_RTC_c_23_1"
       }
     ],
     "name": "",
@@ -39796,19 +39838,19 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244",
+    "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888",
     "What": "Enum",
     "defdec": "Def",
     "display": "",
     "fields": [
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@DOMINGO",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@DOMINGO",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "DOMINGO",
         "location": {
           "column": "3",
-          "line": "37",
+          "line": "31",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "DOMINGO",
@@ -39816,13 +39858,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@SEGUNDA",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@SEGUNDA",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "SEGUNDA",
         "location": {
           "column": "3",
-          "line": "38",
+          "line": "32",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "SEGUNDA",
@@ -39830,13 +39872,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@TERCA",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@TERCA",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "TERCA",
         "location": {
           "column": "3",
-          "line": "39",
+          "line": "33",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "TERCA",
@@ -39844,13 +39886,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@QUARTA",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@QUARTA",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "QUARTA",
         "location": {
           "column": "3",
-          "line": "40",
+          "line": "34",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "QUARTA",
@@ -39858,13 +39900,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@QUINTA",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@QUINTA",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "QUINTA",
         "location": {
           "column": "3",
-          "line": "41",
+          "line": "35",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "QUINTA",
@@ -39872,13 +39914,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@SEXTA",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@SEXTA",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "SEXTA",
         "location": {
           "column": "3",
-          "line": "42",
+          "line": "36",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "SEXTA",
@@ -39886,13 +39928,13 @@
         "scope": null
       },
       {
-        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@1244@SABADO",
+        "ID": "c:DRV_RTC.c@E@DRV_RTC.c@888@SABADO",
         "What": "Enumerator",
         "defdec": "Def",
         "display": "SABADO",
         "location": {
           "column": "3",
-          "line": "43",
+          "line": "37",
           "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
         },
         "name": "SABADO",
@@ -39902,7 +39944,7 @@
     ],
     "location": {
       "column": "1",
-      "line": "36",
+      "line": "30",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "",
@@ -39916,7 +39958,7 @@
     "display": "void drv_RTC_Pause_Count(void)",
     "location": {
       "column": "6",
-      "line": "50",
+      "line": "44",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "drv_RTC_Pause_Count",
@@ -39930,7 +39972,7 @@
     "display": "void drv_RTC_Resume_Count(void)",
     "location": {
       "column": "6",
-      "line": "51",
+      "line": "45",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "drv_RTC_Resume_Count",
@@ -39944,7 +39986,7 @@
     "display": "void DRV_RTC_Init(void)",
     "location": {
       "column": "6",
-      "line": "59",
+      "line": "53",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Init",
@@ -39958,7 +40000,7 @@
     "display": "RTC_TIME DRV_RTC_Clock_Read(void)",
     "location": {
       "column": "10",
-      "line": "101",
+      "line": "95",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Clock_Read",
@@ -39972,7 +40014,7 @@
     "display": "void DRV_RTC_Clock_Write(RTC_TIME)",
     "location": {
       "column": "6",
-      "line": "127",
+      "line": "121",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Clock_Write",
@@ -39986,7 +40028,7 @@
     "display": "void DRV_RTC_Set_Alarm(uint8_t, uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "160",
+      "line": "154",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Set_Alarm",
@@ -40000,7 +40042,7 @@
     "display": "void DRV_RTC_Reload(RTC_TIME *, RTC_TIME *)",
     "location": {
       "column": "6",
-      "line": "178",
+      "line": "172",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Reload",
@@ -40014,7 +40056,7 @@
     "display": "void DRV_RTC_Add_Sec(RTC_TIME *, WORD)",
     "location": {
       "column": "6",
-      "line": "191",
+      "line": "185",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Add_Sec",
@@ -40022,13 +40064,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@5165@F@DRV_RTC_Add_Sec@min",
+    "ID": "c:DRV_RTC.c@4809@F@DRV_RTC_Add_Sec@min",
     "What": "Variable",
     "defdec": "Def",
     "display": "min",
     "location": {
       "column": "8",
-      "line": "192",
+      "line": "186",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "min",
@@ -40042,7 +40084,7 @@
     "display": "void DRV_RTC_Add_Min(RTC_TIME *, WORD)",
     "location": {
       "column": "6",
-      "line": "211",
+      "line": "205",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Add_Min",
@@ -40056,7 +40098,7 @@
     "display": "void DRV_RTC_Rem_Sec(RTC_TIME *, WORD)",
     "location": {
       "column": "6",
-      "line": "224",
+      "line": "218",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Rem_Sec",
@@ -40064,13 +40106,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@5673@F@DRV_RTC_Rem_Sec@min",
+    "ID": "c:DRV_RTC.c@5317@F@DRV_RTC_Rem_Sec@min",
     "What": "Variable",
     "defdec": "Def",
     "display": "min",
     "location": {
       "column": "17",
-      "line": "225",
+      "line": "219",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "min",
@@ -40078,13 +40120,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@5673@F@DRV_RTC_Rem_Sec@temp",
+    "ID": "c:DRV_RTC.c@5317@F@DRV_RTC_Rem_Sec@temp",
     "What": "Variable",
     "defdec": "Dec",
     "display": "temp",
     "location": {
       "column": "22",
-      "line": "225",
+      "line": "219",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "temp",
@@ -40098,7 +40140,7 @@
     "display": "void DRV_RTC_Rem_Min(RTC_TIME *, WORD)",
     "location": {
       "column": "6",
-      "line": "256",
+      "line": "250",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Rem_Min",
@@ -40106,13 +40148,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_RTC.c@6210@F@DRV_RTC_Rem_Min@temp",
+    "ID": "c:DRV_RTC.c@5854@F@DRV_RTC_Rem_Min@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
     "location": {
       "column": "17",
-      "line": "257",
+      "line": "251",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "temp",
@@ -40126,7 +40168,7 @@
     "display": "WORD DRV_RTC_Is_Ready(RTC_TIME *)",
     "location": {
       "column": "6",
-      "line": "278",
+      "line": "272",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "DRV_RTC_Is_Ready",
@@ -40140,7 +40182,7 @@
     "display": "void IT_Handler(void)",
     "location": {
       "column": "18",
-      "line": "289",
+      "line": "283",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "IT_Handler",
@@ -40154,7 +40196,7 @@
     "display": "void drv_RTC_Pause_Count(void)",
     "location": {
       "column": "6",
-      "line": "304",
+      "line": "298",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "drv_RTC_Pause_Count",
@@ -40168,7 +40210,7 @@
     "display": "void drv_RTC_Resume_Count(void)",
     "location": {
       "column": "6",
-      "line": "310",
+      "line": "304",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_RTC.c"
     },
     "name": "drv_RTC_Resume_Count",
@@ -40578,7 +40620,7 @@
     "display": "void DRV_UART_Taks(void)",
     "location": {
       "column": "6",
-      "line": "97",
+      "line": "94",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "DRV_UART_Taks",
@@ -40586,13 +40628,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@2381@F@DRV_UART_Taks@i",
+    "ID": "c:DRV_UART.c@2341@F@DRV_UART_Taks@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "7",
-      "line": "98",
+      "line": "95",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "i",
@@ -40606,7 +40648,7 @@
     "display": "int DRV_UART_Checksum_Verify(void)",
     "location": {
       "column": "5",
-      "line": "118",
+      "line": "115",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "DRV_UART_Checksum_Verify",
@@ -40614,13 +40656,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@2808@F@DRV_UART_Checksum_Verify@byte",
+    "ID": "c:DRV_UART.c@2768@F@DRV_UART_Checksum_Verify@byte",
     "What": "Variable",
     "defdec": "Def",
     "display": "byte",
     "location": {
       "column": "9",
-      "line": "119",
+      "line": "116",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "byte",
@@ -40628,13 +40670,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@2808@F@DRV_UART_Checksum_Verify@checksum",
+    "ID": "c:DRV_UART.c@2768@F@DRV_UART_Checksum_Verify@checksum",
     "What": "Variable",
     "defdec": "Dec",
     "display": "checksum",
     "location": {
       "column": "15",
-      "line": "119",
+      "line": "116",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "checksum",
@@ -40648,7 +40690,7 @@
     "display": "uint8_t * DRV_UART_Get_Tag(void)",
     "location": {
       "column": "11",
-      "line": "136",
+      "line": "133",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "DRV_UART_Get_Tag",
@@ -40656,13 +40698,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@3215@F@DRV_UART_Get_Tag@tag",
+    "ID": "c:DRV_UART.c@3175@F@DRV_UART_Get_Tag@tag",
     "What": "Variable",
     "defdec": "Def",
     "display": "tag",
     "location": {
       "column": "13",
-      "line": "139",
+      "line": "136",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "tag",
@@ -40676,7 +40718,7 @@
     "display": "void drv_UART_1_Init(void)",
     "location": {
       "column": "6",
-      "line": "154",
+      "line": "151",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "drv_UART_1_Init",
@@ -40690,7 +40732,7 @@
     "display": "void drv_UART_2_Init(void)",
     "location": {
       "column": "6",
-      "line": "182",
+      "line": "179",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "drv_UART_2_Init",
@@ -40704,7 +40746,7 @@
     "display": "void trata_rx_UART1(void)",
     "location": {
       "column": "18",
-      "line": "214",
+      "line": "211",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "trata_rx_UART1",
@@ -40712,13 +40754,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@5980@F@trata_rx_UART1@temp",
+    "ID": "c:DRV_UART.c@5940@F@trata_rx_UART1@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
     "location": {
       "column": "15",
-      "line": "216",
+      "line": "213",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "temp",
@@ -40732,7 +40774,7 @@
     "display": "void trata_tx_UART1(void)",
     "location": {
       "column": "18",
-      "line": "277",
+      "line": "274",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "trata_tx_UART1",
@@ -40746,7 +40788,7 @@
     "display": "void trata_rx_UART2(void)",
     "location": {
       "column": "18",
-      "line": "284",
+      "line": "281",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "trata_rx_UART2",
@@ -40754,13 +40796,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_UART.c@7326@F@trata_rx_UART2@temp",
+    "ID": "c:DRV_UART.c@7286@F@trata_rx_UART2@temp",
     "What": "Variable",
     "defdec": "Def",
     "display": "temp",
     "location": {
       "column": "16",
-      "line": "286",
+      "line": "283",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "temp",
@@ -40774,7 +40816,7 @@
     "display": "void trata_tx_UART2(void)",
     "location": {
       "column": "18",
-      "line": "293",
+      "line": "290",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Source\\DRV_UART.c"
     },
     "name": "trata_tx_UART2",
@@ -40796,16 +40838,100 @@
     "scope": null
   },
   {
-    "ID": "c:Configurations.h@70@macro@NOT_DEBUGGING",
+    "ID": "c:Configurations.h@98@macro@NOT_DEBUGGING",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "NOT_DEBUGGING",
     "location": {
       "column": "9",
-      "line": "4",
+      "line": "5",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
     },
     "name": "NOT_DEBUGGING",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@186@macro@UART_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "UART_MODULE_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "UART_MODULE_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@214@macro@RTC_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RTC_MODULE_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "RTC_MODULE_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@241@macro@LCD_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LCD_MODULE_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "LCD_MODULE_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@268@macro@LEDS_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LEDS_MODULE_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "14",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "LEDS_MODULE_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@296@macro@SPEAKER_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SPEAKER_MODULE_ENABLE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "SPEAKER_MODULE_ENABLE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:Configurations.h@328@macro@MOTOR_MODULE_ENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MOTOR_MODULE_ENABLE",
+    "location": {
+      "column": "10",
+      "line": "16",
+      "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Configurations.h"
+    },
+    "name": "MOTOR_MODULE_ENABLE",
     "origin": "user_include",
     "scope": null
   },
@@ -41068,7 +41194,7 @@
     "display": "opbyte0",
     "location": {
       "column": "25",
-      "line": "99",
+      "line": "100",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte0",
@@ -41082,7 +41208,7 @@
     "display": "opbyte1",
     "location": {
       "column": "25",
-      "line": "102",
+      "line": "103",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte1",
@@ -41096,7 +41222,7 @@
     "display": "opbyte2",
     "location": {
       "column": "25",
-      "line": "105",
+      "line": "106",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte2",
@@ -41110,7 +41236,7 @@
     "display": "opbyte3",
     "location": {
       "column": "25",
-      "line": "108",
+      "line": "109",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte3",
@@ -41124,7 +41250,7 @@
     "display": "senha",
     "location": {
       "column": "25",
-      "line": "111",
+      "line": "112",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "senha",
@@ -41138,7 +41264,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "113",
+      "line": "114",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "main",

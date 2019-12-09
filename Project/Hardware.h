@@ -57,6 +57,8 @@
 #define NUMBER_OF_FINISH_BYTES    1u
 #define LAST_BITE                 0x03
 
+#define pwrtwo(x)               (1 << (x))              
+#define SYSTEM_CLOCK            32E6
 
 /************************************************
  *  SERVO MOTOR

@@ -616,7 +616,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state>IO_Digital.hex</state>
+                    <state>ProjetoFinal.hex</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>
@@ -2050,9 +2050,6 @@
         </group>
         <group>
             <name>Drivers</name>
-            <file>
-                <name>$PROJ_DIR$\Drivers\Source\DRV_Leds.c</name>
-            </file>
             <file>
                 <name>$PROJ_DIR$\Drivers\Source\DRV_Motor.c</name>
             </file>

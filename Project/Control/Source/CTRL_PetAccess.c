@@ -104,18 +104,13 @@ void ctrl_Pet_Access_Novo_Match(uint8_t match){
         LCD_write_word(Pets_Table[match].Time.min);
         LCD_write_char(':');
         LCD_write_word(Pets_Table[match].Time.sec);
-
+  
         break;
 
       case(DISPONIVEL):   
         
-        Pets_Table[match].State = ESPERANDO_LIBERAR;      
+        Pets_Table[match].State = LIBERANDO;      
         break;
-
-      case(LIBERADO):
-        DRV_RTC_Reload(&Pets_Table[match].Time, &Pets_Table[match].Reload);
-        Pets_Table[match].State = BLOQUEADO; 
-        break;  
 
       case ESPERANDO_LIBERAR:
         break;
@@ -131,6 +126,8 @@ void ctrl_Pet_Access_Novo_Match(uint8_t match){
         LCD_write_word(0);
         LCD_write_char(':');
         LCD_write_word(Pets_Table[match].Food_Amount);
+        
+        
       default:
         break;
             
@@ -162,19 +159,38 @@ void CTRL_PetAccess_Time_Event(void) {
         break;
        
         case(ESPERANDO_LIBERAR):
-          HOOK_INICIA_LIBERACAO();
+          //HOOK_INICIA_LIBERACAO();
           Pets_Table[pet].State = LIBERANDO;
           break;
           
         case(LIBERANDO):
           Pets_Table[pet].Food_Amount -= 1;
           
+          static WORD last_state = 0;
+          
+          if(last_state == 0)
+          {
+            HOOK_INICIA_LIBERACAO();
+            last_state = 1;
+          }
+          else
+          {
+            HOOK_FINALIZA_LIBERACAO();
+            last_state = 0;
+          }
+          
           if(Pets_Table[pet].Food_Amount == 0){
             HOOK_FINALIZA_LIBERACAO();
             Pets_Table[pet].State = LIBERADO;
           }
           break;
+         
+        case(LIBERADO):
+          DRV_RTC_Reload(&Pets_Table[pet].Time, &Pets_Table[pet].Reload);
+          ctrl_Pet_Access_Food_Reload(&Pets_Table[pet].Food_Amount, Pets_Table[pet].Food_Reload);
+          Pets_Table[pet].State = BLOQUEADO; 
           
+          break;  
           
         default:
           break;

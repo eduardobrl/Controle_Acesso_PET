@@ -89,9 +89,6 @@ void DRV_UART_Init(void)
   
   drv_UART_2_Init();
   drv_UART_1_Init();
-#if defined(NOT_DEBUGGING)
-  
-#endif
 }
 
 void DRV_UART_Taks(void){

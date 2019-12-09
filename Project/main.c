@@ -14,6 +14,7 @@
 #include "ior5f100le_ext.h"
 #include "intrinsics.h"
 #include "myRL78.h"
+#include "DRV_Motor.h"
 
 
 // Configura watchdog = desligado
@@ -122,9 +123,8 @@ void main( void )
   //CTRL_Button_Init();
   LCD_init_4_bits();
   DRV_UART_Init();
-  
   DRV_RTC_Init();
-  PMC0 = 0;
+  DRV_Motor_Init();
   __enable_interrupt(); // habilita as interrupções do RL78
   while (1)
   {  

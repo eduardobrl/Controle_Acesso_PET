@@ -15,13 +15,7 @@
 /****************************************************************************
                              MACROS LOCAIS
 *****************************************************************************/
-#define pwrtwo(x)               (1 << (x))              
-#define DESIRE_BAUDURATE       9600
-#define SYSTEM_CLOCK           32E6
-#define CLOCK_DIV              pwrtwo(SAU_CK0_DIV16) //*GLOBAL
 
-/*CALCULATE BAUDURATE BASED ON DESIRED BAUDURATE*/
-#define BAUDURATE_VAL        (unsigned short)((SYSTEM_CLOCK)/ ( CLOCK_DIV * 2.0 * DESIRE_BAUDURATE) - 1.0)
 
 /****************************************************************************
                              VARIAVEIS GLOBAIS
