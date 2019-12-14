@@ -1,5 +1,5 @@
-#ifndef __DRV_UART_H__
-#define __DRV_UART_H_
+#ifndef __DRV_MOTOR_H__
+#define __DRV_MOTOR_H__
 
 #include "Types.h"
 #include "Hardware.h"
@@ -18,12 +18,10 @@
 #define DRV_MOTOR_180_GRAUS_FREQ            (1 / 1.5E-3)        
 #define DRV_MOTOR_270_GRAUS_FREQ            (1 / 2.4E-3)    
 
-
-#define DRV_MOTOR_0_GRAUS_VAL                (0u)        
-#define DRV_MOTOR_90_GRAUS_VAL               (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_90_GRAUS_FREQ) - 1)             
-#define DRV_MOTOR_180_GRAUS_VAL              (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_180_GRAUS_FREQ) - 1)   
-#define DRV_MOTOR_270_GRAUS_VAL              (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_270_GRAUS_FREQ) - 1)   
-
+#define DRV_MOTOR_0_GRAUS_VAL               (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_90_GRAUS_FREQ) - 1)             
+#define DRV_MOTOR_90_GRAUS_VAL              (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_180_GRAUS_FREQ) - 1)   
+#define DRV_MOTOR_180_GRAUS_VAL             (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_270_GRAUS_FREQ) - 1)   
+#define DRV_MOTOR_270_GRAUS_VAL             (WORD)( (DRV_MOTOR_CLOCK_VAL / DRV_MOTOR_270_GRAUS_FREQ) - 1)   
 
 void DRV_Motor_Init(void);
 void DRV_Motor_Set_Angle(WORD angle );

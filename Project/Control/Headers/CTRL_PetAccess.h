@@ -45,9 +45,9 @@ typedef struct {
     };
   #else
     Pet_Access_type   Pets_Table[NUM_OF_PETS] = {
-      {TAG_AMARELA ,"Jade",{40u ,1u }, {40u ,1u }, 5u, 5u, TRUE, BLOQUEADO},
-      {TAG_ROXA ,"Nico",{0u  ,2u }, {0u  ,2u }, 5u, 5u, TRUE, BLOQUEADO},
-      {TAG_LARANJA ,"Bianca",{30u ,0u }, {30u ,0u }, 8u, 8u, TRUE, BLOQUEADO}
+      {TAG_AMARELA ,"Jade",{40u ,1u }, {40u ,1u }, 10u, 10u, TRUE, DISPONIVEL},
+      {TAG_ROXA ,"Nico",{0u  ,2u }, {0u  ,2u }, 12u, 12u, TRUE, DISPONIVEL},
+      {TAG_LARANJA ,"Bianca",{30u ,0u }, {30u ,0u }, 8u, 8u, TRUE, DISPONIVEL}
     };
   #endif //I_SUPORT_FAST_DEMONSTRATION
 #endif //__PET_ACCESS_C__

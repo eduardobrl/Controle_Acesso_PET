@@ -32,8 +32,8 @@
 #define HOOK_ACESSO_BLOQUEADO(petTable)                 0                                
 #define HOOK_LIBERAR_ACESSO(petTable)                   0
 #define HOOK_ACESSO_LIBERADO(petTable)                  0
-#define HOOK_INICIA_LIBERACAO()                         DRV_Motor_Set_Angle(2499)
-#define HOOK_FINALIZA_LIBERACAO()                       DRV_Motor_Set_Angle(599)
+#define HOOK_INICIA_LIBERACAO()                         DRV_Motor_Set_Angle(499)
+#define HOOK_FINALIZA_LIBERACAO()                       DRV_Motor_Set_Angle(2499)
 
 /*****************************************************************************
                           DRV_RTC.c

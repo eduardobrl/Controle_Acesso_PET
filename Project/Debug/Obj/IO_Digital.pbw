@@ -36118,7 +36118,7 @@
     "scope": null
   },
   {
-    "ID": "c:Hooks.h@1448@macro@HOOK_FINALIZA_LIBERACAO",
+    "ID": "c:Hooks.h@1447@macro@HOOK_FINALIZA_LIBERACAO",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "HOOK_FINALIZA_LIBERACAO",
@@ -37134,21 +37134,21 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@32@macro@__DRV_UART_H_",
+    "ID": "c:DRV_Motor.h@33@macro@__DRV_MOTOR_H__",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__DRV_UART_H_",
+    "display": "__DRV_MOTOR_H__",
     "location": {
       "column": "9",
       "line": "2",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
-    "name": "__DRV_UART_H_",
+    "name": "__DRV_MOTOR_H__",
     "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@105@macro@DRV_MOTOR_CLOCK",
+    "ID": "c:DRV_Motor.h@108@macro@DRV_MOTOR_CLOCK",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_CLOCK",
@@ -37162,7 +37162,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@166@macro@DRV_MOTOR_CLOCK_VAL",
+    "ID": "c:DRV_Motor.h@169@macro@DRV_MOTOR_CLOCK_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_CLOCK_VAL",
@@ -37176,7 +37176,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@245@macro@DRV_MOTOR_FREQ_HZ",
+    "ID": "c:DRV_Motor.h@248@macro@DRV_MOTOR_FREQ_HZ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_FREQ_HZ",
@@ -37190,7 +37190,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@305@macro@DRV_MOTOR_FREQ_VAL",
+    "ID": "c:DRV_Motor.h@308@macro@DRV_MOTOR_FREQ_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_FREQ_VAL",
@@ -37204,7 +37204,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@405@macro@DRV_MOTOR_CLOCK_DUTY",
+    "ID": "c:DRV_Motor.h@408@macro@DRV_MOTOR_CLOCK_DUTY",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_CLOCK_DUTY",
@@ -37218,7 +37218,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@487@macro@DRV_MOTOR_0_GRAUS_FREQ",
+    "ID": "c:DRV_Motor.h@490@macro@DRV_MOTOR_0_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_0_GRAUS_FREQ",
@@ -37232,7 +37232,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@546@macro@DRV_MOTOR_90_GRAUS_FREQ",
+    "ID": "c:DRV_Motor.h@549@macro@DRV_MOTOR_90_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_90_GRAUS_FREQ",
@@ -37246,7 +37246,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@606@macro@DRV_MOTOR_180_GRAUS_FREQ",
+    "ID": "c:DRV_Motor.h@609@macro@DRV_MOTOR_180_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_180_GRAUS_FREQ",
@@ -37260,7 +37260,7 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@672@macro@DRV_MOTOR_270_GRAUS_FREQ",
+    "ID": "c:DRV_Motor.h@675@macro@DRV_MOTOR_270_GRAUS_FREQ",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_270_GRAUS_FREQ",
@@ -37274,13 +37274,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@738@macro@DRV_MOTOR_0_GRAUS_VAL",
+    "ID": "c:DRV_Motor.h@739@macro@DRV_MOTOR_0_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_0_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "22",
+      "line": "21",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_MOTOR_0_GRAUS_VAL",
@@ -37288,13 +37288,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@797@macro@DRV_MOTOR_90_GRAUS_VAL",
+    "ID": "c:DRV_Motor.h@858@macro@DRV_MOTOR_90_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_90_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "23",
+      "line": "22",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_MOTOR_90_GRAUS_VAL",
@@ -37302,13 +37302,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@917@macro@DRV_MOTOR_180_GRAUS_VAL",
+    "ID": "c:DRV_Motor.h@968@macro@DRV_MOTOR_180_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_180_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "24",
+      "line": "23",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_MOTOR_180_GRAUS_VAL",
@@ -37316,13 +37316,13 @@
     "scope": null
   },
   {
-    "ID": "c:DRV_Motor.h@1028@macro@DRV_MOTOR_270_GRAUS_VAL",
+    "ID": "c:DRV_Motor.h@1078@macro@DRV_MOTOR_270_GRAUS_VAL",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DRV_MOTOR_270_GRAUS_VAL",
     "location": {
       "column": "9",
-      "line": "25",
+      "line": "24",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_MOTOR_270_GRAUS_VAL",
@@ -37336,7 +37336,7 @@
     "display": "void DRV_Motor_Init(void)",
     "location": {
       "column": "6",
-      "line": "28",
+      "line": "26",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_Motor_Init",
@@ -37350,7 +37350,7 @@
     "display": "void DRV_Motor_Init(void)",
     "location": {
       "column": "6",
-      "line": "28",
+      "line": "26",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_Motor_Init",
@@ -37364,7 +37364,7 @@
     "display": "void DRV_Motor_Set_Angle(WORD)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "27",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_Motor_Set_Angle",
@@ -37378,7 +37378,7 @@
     "display": "void DRV_Motor_Set_Angle(WORD)",
     "location": {
       "column": "6",
-      "line": "29",
+      "line": "27",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\Drivers\\Headers\\DRV_Motor.h"
     },
     "name": "DRV_Motor_Set_Angle",
@@ -41194,7 +41194,7 @@
     "display": "opbyte0",
     "location": {
       "column": "25",
-      "line": "100",
+      "line": "24",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte0",
@@ -41208,7 +41208,7 @@
     "display": "opbyte1",
     "location": {
       "column": "25",
-      "line": "103",
+      "line": "27",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte1",
@@ -41222,7 +41222,7 @@
     "display": "opbyte2",
     "location": {
       "column": "25",
-      "line": "106",
+      "line": "30",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte2",
@@ -41236,7 +41236,7 @@
     "display": "opbyte3",
     "location": {
       "column": "25",
-      "line": "109",
+      "line": "33",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "opbyte3",
@@ -41250,7 +41250,7 @@
     "display": "senha",
     "location": {
       "column": "25",
-      "line": "112",
+      "line": "36",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "senha",
@@ -41264,7 +41264,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "114",
+      "line": "38",
       "path": "F:\\Projetos\\Renesas\\FEI\\Projeto_Final\\Project\\main.c"
     },
     "name": "main",

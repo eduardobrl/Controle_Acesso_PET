@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <DebugChecksum>
-        <Checksum>1319211811</Checksum>
+        <Checksum>3954925103</Checksum>
     </DebugChecksum>
     <CodeCoverage>
         <Enabled>_ 0</Enabled>
@@ -216,7 +216,7 @@
         <ShowSource>1</ShowSource>
     </TraceHelper>
     <Breakpoints>
-        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.38.1" 0 0 0 0 "" 0 ""</Bp0>
+        <Bp0>_ "STD_CODE" "{$PROJ_DIR$\main.c}.8.1" 0 0 0 0 "" 0 ""</Bp0>
         <Count>1</Count>
     </Breakpoints>
     <Monitor_Execution>

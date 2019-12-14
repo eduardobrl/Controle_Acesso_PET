@@ -21,15 +21,15 @@ void DRV_Motor_Init(){
  TMR01 = TAU_CK0 | TAU_TRIG_MASTER | TAU_MD_ONECOUNT_TRIG;
  //TMR02 = TAU_CK0 | TAU_TRIG_MASTER | TAU_MD_ONECOUNT_TRIG;
  TDR00 = DRV_MOTOR_FREQ_VAL; // per�odo do sinal PWM = 1kHz
- TDR01 = DRV_MOTOR_180_GRAUS_VAL;
- TDR02 = DRV_MOTOR_270_GRAUS_VAL;
+ TDR01 = 2499;
+ TDR02 = 2499;
  TOE0L = TAU_CH2 | TAU_CH1; // habilita a sa�da dos canais 1 e 2 da TAU0
  // sa�da dos canais 1 e 2 controladas pelo mestre/escravo
  TOM0L = TAU_CH2 | TAU_CH1;
  // dispara os canais mestre e escravos
  TS0L = TAU_CH0 | TAU_CH1 | TAU_CH2; 
 
-  DRV_Motor_Set_Angle((unsigned)DRV_MOTOR_90_GRAUS_VAL);
+  DRV_Motor_Set_Angle(2499);
   
 }
 
